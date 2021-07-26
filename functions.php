@@ -2,17 +2,9 @@
     if ( ! defined( 'ABSPATH' ) ) {
         exit; // Exit if accessed directly.
     }
-    
-    // function understrap_remove_scripts() {
-    //     wp_dequeue_style( 'understrap-styles' );
-    //     wp_deregister_style( 'understrap-styles' );
-    
-    //     wp_dequeue_script( 'understrap-scripts' );
-    //     wp_deregister_script( 'understrap-scripts' );
-    //     // Removes the parent themes stylesheet and scripts from inc/enqueue.php
-    // }
-    // add_action( 'wp_enqueue_scripts', 'understrap_remove_scripts', 20 );
 
+    include 'block-templates/gallery-blocks.php';
+    
     add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
     function theme_enqueue_styles() {
     
@@ -26,19 +18,9 @@
         // }
     }
 
-    // show_admin_bar( true );
-
-    register_sidebar(
-        array(
-            'name'          => __( 'Fullscreen', 'understrap' ),
-            'id'            => 'fullscreenhero',
-            'description'   => __( 'Full screen widget with dynamic grid', 'understrap' ),
-            'before_widget' => '<div id="%1$s" class="fullscreen-slide carousel-item %2$s">',
-            'after_widget'  => '</div><!-- .fullscreen-hero-widget -->',
-            'before_title'  => '<h3 class="widget-title">',
-            'after_title'   => '</h3>',
-        )
-    );
+    if(is_user_logged_in()){
+        show_admin_bar( true );
+    }
 
     add_action( 'understrap_site_info', 'understrap_add_site_info' );
     // if ( ! function_exists( 'understrap_add_site_info' ) ) {

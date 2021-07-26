@@ -2,7 +2,7 @@
   "browserSyncOptions" : {
     "proxy": "localdev/befdev",
     "notify": false,
-	  "files": ["./css/*.min.css", "./js/*.min.js", "./**/*.php"]
+	  "files": ["./css/*.min.css", "./js/*.min.js", "./**/*.php", "./block-templates/*.js"]
   },
   "paths" : {
     "js": "./js",
