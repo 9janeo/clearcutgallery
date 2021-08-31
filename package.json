@@ -4,8 +4,6 @@
   "description": "Basic Child Theme for Understrap Theme Framework: https://github.com/understrap/understrap",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-<<<<<<< HEAD
     "bs": "browser-sync start --config src/build/browser-sync.config.js",
     "css": "npm-run-all css-compile css-postcss css-minify",
     "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css src/sass/child-theme.scss:css/child-theme.css src/sass/custom-editor-style.scss:css/custom-editor-style.css",
@@ -20,12 +18,6 @@
     "watch-run-js": "nodemon --watch src/js/ --ext js --exec \"npm-run-all js\"",
     "copy-assets": "node src/build/copy-assets.js",
     "dist": "npm-run-all --parallel css js"
-=======
-    "postinstall": "gulp copy-assets"
->>>>>>> 4f29457 (Add fullscreen landing page)
-=======
-    "postinstall": "gulp copy-assets"
->>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   },
   "repository": {
     "type": "git",
@@ -38,22 +30,12 @@
     "bootstrap",
     "underscores"
   ],
-<<<<<<< HEAD
-<<<<<<< HEAD
   "author": "The Understrap Authors (https://github.com/understrap/understrap/graphs/contributors)",
-=======
-  "author": "The UnderStrap Authors (https://github.com/understrap/understrap/graphs/contributors)",
->>>>>>> 4f29457 (Add fullscreen landing page)
-=======
-  "author": "The UnderStrap Authors (https://github.com/understrap/understrap/graphs/contributors)",
->>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   "license": "GPL-2.0",
   "bugs": {
     "url": "https://github.com/understrap/understrap-child/issues"
   },
   "homepage": "https://understrap.com",
-<<<<<<< HEAD
-<<<<<<< HEAD
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.15.0",
@@ -79,33 +61,5 @@
     "rollup": "^2.56.2",
     "sass": "^1.38.1",
     "understrap": "github:understrap/understrap#develop"
-=======
-=======
->>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
-  "dependencies": {
-    "@babel/core": "^7.13.15",
-    "@babel/preset-env": "^7.13.15",
-    "autoprefixer": "^10.2.5",
-    "bootstrap": "^4.6.0",
-    "browser-sync": "^2.26.14",
-    "del": "^6.0.0",
-    "font-awesome": "^4.7.0",
-    "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-plumber": "^1.2.1",
-    "gulp-postcss": "^9.0.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^3.0.2",
-    "postcss": "^8.2.9",
-    "understrap": "^0.9.6"
-<<<<<<< HEAD
->>>>>>> 4f29457 (Add fullscreen landing page)
-=======
->>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   }
 }
