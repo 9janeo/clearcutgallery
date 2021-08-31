@@ -1,5 +1,6 @@
 /*!
 <<<<<<< HEAD
+<<<<<<< HEAD
   * Understrap v0.6.0 (https://understrap.com)
   * Copyright 2013-2021 The Understrap Authors (https://github.com/understrap/understrap/graphs/contributors)
   * Licensed under GPL (http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
@@ -2734,6 +2735,8 @@
    */
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   * Bootstrap v4.6.0 (https://getbootstrap.com/)
   * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -2790,7 +2793,10 @@
     subClass.prototype.constructor = subClass;
     subClass.__proto__ = superClass;
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * --------------------------------------------------------------------------
    * Bootstrap (v4.6.0): util.js
@@ -2805,6 +2811,7 @@
    */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   const TRANSITION_END = 'transitionend';
   const MAX_UID = 1000000;
   const MILLISECONDS_MULTIPLIER = 1000;
@@ -2817,6 +2824,8 @@
 
     return {}.toString.call(obj).match(/\s([a-z]+)/i)[1].toLowerCase()
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   var TRANSITION_END = 'transitionend';
   var MAX_UID = 1000000;
@@ -2828,13 +2837,17 @@
     }
 
     return {}.toString.call(obj).match(/\s([a-z]+)/i)[1].toLowerCase();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   }
 
   function getSpecialTransitionEndEvent() {
     return {
       bindType: TRANSITION_END,
       delegateType: TRANSITION_END,
+<<<<<<< HEAD
 <<<<<<< HEAD
       handle(event) {
         if ($__default['default'](event.target).is(this)) {
@@ -2861,6 +2874,8 @@
 
     return this
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       handle: function handle(event) {
         if ($__default['default'](event.target).is(this)) {
           return event.handleObj.handler.apply(this, arguments); // eslint-disable-line prefer-rest-params
@@ -2884,7 +2899,10 @@
       }
     }, duration);
     return this;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   }
 
   function setTransitionEndSupport() {
@@ -2892,15 +2910,19 @@
     $__default['default'].event.special[Util.TRANSITION_END] = getSpecialTransitionEndEvent();
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * --------------------------------------------------------------------------
    * Public Util Api
    * --------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   const Util = {
     TRANSITION_END: 'bsTransitionEnd',
@@ -2919,6 +2941,8 @@
       if (!selector || selector === '#') {
         const hrefAttr = element.getAttribute('href');
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   var Util = {
     TRANSITION_END: 'bsTransitionEnd',
@@ -2934,11 +2958,15 @@
 
       if (!selector || selector === '#') {
         var hrefAttr = element.getAttribute('href');
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         selector = hrefAttr && hrefAttr !== '#' ? hrefAttr.trim() : '';
       }
 
       try {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return document.querySelector(selector) ? selector : null
       } catch (_) {
@@ -3000,6 +3028,8 @@
               `Option "${property}" provided type "${valueType}" ` +
               `but expected type "${expectedTypes}".`)
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         return document.querySelector(selector) ? selector : null;
       } catch (_) {
         return null;
@@ -3046,11 +3076,15 @@
 
           if (!new RegExp(expectedTypes).test(valueType)) {
             throw new Error(componentName.toUpperCase() + ": " + ("Option \"" + property + "\" provided type \"" + valueType + "\" ") + ("but expected type \"" + expectedTypes + "\"."));
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           }
         }
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     findShadowRoot(element) {
@@ -3105,6 +3139,8 @@
    */
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     findShadowRoot: function findShadowRoot(element) {
       if (!document.documentElement.attachShadow) {
         return null;
@@ -3146,13 +3182,17 @@
   };
   Util.jQueryDetection();
   setTransitionEndSupport();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Constants
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   const NAME$a = 'alert';
   const VERSION$a = '4.6.0';
@@ -3172,6 +3212,8 @@
   const CLASS_NAME_SHOW$7 = 'show';
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var NAME = 'alert';
   var VERSION = '4.6.0';
   var DATA_KEY = 'bs.alert';
@@ -3185,13 +3227,17 @@
   var CLASS_NAME_ALERT = 'alert';
   var CLASS_NAME_FADE = 'fade';
   var CLASS_NAME_SHOW = 'show';
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Class Definition
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   class Alert {
     constructor(element) {
@@ -3209,6 +3255,8 @@
     close(element) {
       let rootElement = this._element;
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var Alert = /*#__PURE__*/function () {
     function Alert(element) {
       this._element = element;
@@ -3220,11 +3268,15 @@
     _proto.close = function close(element) {
       var rootElement = this._element;
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (element) {
         rootElement = this._getRootElement(element);
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       const customEvent = this._triggerCloseEvent(rootElement);
 
@@ -3246,6 +3298,8 @@
       const selector = Util.getSelectorFromElement(element);
       let parent = false;
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       var customEvent = this._triggerCloseEvent(rootElement);
 
       if (customEvent.isDefaultPrevented()) {
@@ -3264,13 +3318,17 @@
     _proto._getRootElement = function _getRootElement(element) {
       var selector = Util.getSelectorFromElement(element);
       var parent = false;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       if (selector) {
         parent = document.querySelector(selector);
       }
 
       if (!parent) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         parent = $__default['default'](element).closest(`.${CLASS_NAME_ALERT}`)[0];
       }
@@ -3318,6 +3376,8 @@
           data = new Alert(this);
           $element.data(DATA_KEY$a, data);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         parent = $__default['default'](element).closest("." + CLASS_NAME_ALERT)[0];
       }
 
@@ -3360,23 +3420,32 @@
         if (!data) {
           data = new Alert(this);
           $element.data(DATA_KEY, data);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         if (config === 'close') {
           data[config](this);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
       })
     }
 
     static _handleDismiss(alertInstance) {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       });
     };
 
     Alert._handleDismiss = function _handleDismiss(alertInstance) {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       return function (event) {
         if (event) {
           event.preventDefault();
@@ -3384,11 +3453,14 @@
 
         alertInstance.close(this);
 <<<<<<< HEAD
+<<<<<<< HEAD
       }
     }
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       };
     };
 
@@ -3401,13 +3473,17 @@
 
     return Alert;
   }();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Data Api implementation
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'](document).on(
     EVENT_CLICK_DATA_API$6,
@@ -3419,12 +3495,17 @@
 
   $__default['default'](document).on(EVENT_CLICK_DATA_API, SELECTOR_DISMISS, Alert._handleDismiss(new Alert()));
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+  $__default['default'](document).on(EVENT_CLICK_DATA_API, SELECTOR_DISMISS, Alert._handleDismiss(new Alert()));
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * jQuery
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'].fn[NAME$a] = Alert._jQueryInterface;
   $__default['default'].fn[NAME$a].Constructor = Alert;
@@ -3441,6 +3522,8 @@
    */
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   $__default['default'].fn[NAME] = Alert._jQueryInterface;
   $__default['default'].fn[NAME].Constructor = Alert;
 
@@ -3448,13 +3531,17 @@
     $__default['default'].fn[NAME] = JQUERY_NO_CONFLICT;
     return Alert._jQueryInterface;
   };
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Constants
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   const NAME$9 = 'button';
   const VERSION$9 = '4.6.0';
@@ -3481,6 +3568,8 @@
   const EVENT_LOAD_DATA_API$2 = `load${EVENT_KEY$9}${DATA_API_KEY$6}`;
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   var NAME$1 = 'button';
   var VERSION$1 = '4.6.0';
@@ -3501,13 +3590,17 @@
   var EVENT_CLICK_DATA_API$1 = "click" + EVENT_KEY$1 + DATA_API_KEY$1;
   var EVENT_FOCUS_BLUR_DATA_API = "focus" + EVENT_KEY$1 + DATA_API_KEY$1 + " " + ("blur" + EVENT_KEY$1 + DATA_API_KEY$1);
   var EVENT_LOAD_DATA_API = "load" + EVENT_KEY$1 + DATA_API_KEY$1;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Class Definition
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   class Button {
     constructor(element) {
@@ -3541,6 +3634,8 @@
               if (activeElement) {
                 $__default['default'](activeElement).removeClass(CLASS_NAME_ACTIVE$3);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var Button = /*#__PURE__*/function () {
     function Button(element) {
       this._element = element;
@@ -3567,7 +3662,10 @@
 
               if (activeElement) {
                 $__default['default'](activeElement).removeClass(CLASS_NAME_ACTIVE);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
               }
             }
           }
@@ -3576,10 +3674,14 @@
             // if it's not a radio button or checkbox don't add a pointless/invalid checked property to the input
             if (input.type === 'checkbox' || input.type === 'radio') {
 <<<<<<< HEAD
+<<<<<<< HEAD
               input.checked = !this._element.classList.contains(CLASS_NAME_ACTIVE$3);
 =======
               input.checked = !this._element.classList.contains(CLASS_NAME_ACTIVE);
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+              input.checked = !this._element.classList.contains(CLASS_NAME_ACTIVE);
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
             }
 
             if (!this.shouldAvoidTriggerChange) {
@@ -3594,6 +3696,7 @@
 
       if (!(this._element.hasAttribute('disabled') || this._element.classList.contains('disabled'))) {
         if (addAriaPressed) {
+<<<<<<< HEAD
 <<<<<<< HEAD
           this._element.setAttribute('aria-pressed', !this._element.classList.contains(CLASS_NAME_ACTIVE$3));
         }
@@ -3620,6 +3723,8 @@
           data = new Button(this);
           $element.data(DATA_KEY$9, data);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           this._element.setAttribute('aria-pressed', !this._element.classList.contains(CLASS_NAME_ACTIVE));
         }
 
@@ -3643,7 +3748,10 @@
         if (!data) {
           data = new Button(this);
           $element.data(DATA_KEY$1, data);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         data.shouldAvoidTriggerChange = avoidTriggerChange;
@@ -3652,11 +3760,14 @@
           data[config]();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
       })
     }
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       });
     };
 
@@ -3669,13 +3780,17 @@
 
     return Button;
   }();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Data Api implementation
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'](document)
     .on(EVENT_CLICK_DATA_API$5, SELECTOR_DATA_TOGGLE_CARROT, event => {
@@ -3734,6 +3849,8 @@
   });
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   $__default['default'](document).on(EVENT_CLICK_DATA_API$1, SELECTOR_DATA_TOGGLE_CARROT, function (event) {
     var button = event.target;
@@ -3791,13 +3908,17 @@
       }
     }
   });
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * jQuery
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'].fn[NAME$9] = Button._jQueryInterface;
   $__default['default'].fn[NAME$9].Constructor = Button;
@@ -3814,6 +3935,8 @@
    */
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   $__default['default'].fn[NAME$1] = Button._jQueryInterface;
   $__default['default'].fn[NAME$1].Constructor = Button;
 
@@ -3821,13 +3944,17 @@
     $__default['default'].fn[NAME$1] = JQUERY_NO_CONFLICT$1;
     return Button._jQueryInterface;
   };
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Constants
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   const NAME$8 = 'carousel';
   const VERSION$8 = '4.6.0';
@@ -3842,6 +3969,8 @@
 
   const Default$7 = {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   var NAME$2 = 'carousel';
   var VERSION$2 = '4.6.0';
@@ -3857,7 +3986,10 @@
 
   var SWIPE_THRESHOLD = 40;
   var Default = {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     interval: 5000,
     keyboard: true,
     slide: false,
@@ -3866,11 +3998,15 @@
     touch: true
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   const DefaultType$7 = {
 =======
   var DefaultType = {
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+  var DefaultType = {
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     interval: '(number|boolean)',
     keyboard: 'boolean',
     slide: '(boolean|string)',
@@ -3878,6 +4014,7 @@
     wrap: 'boolean',
     touch: 'boolean'
   };
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   const DIRECTION_NEXT = 'next';
@@ -3923,6 +4060,8 @@
   };
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var DIRECTION_NEXT = 'next';
   var DIRECTION_PREV = 'prev';
   var DIRECTION_LEFT = 'left';
@@ -3960,12 +4099,16 @@
     TOUCH: 'touch',
     PEN: 'pen'
   };
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Class Definition
    * ------------------------------------------------------------------------
    */
+<<<<<<< HEAD
 <<<<<<< HEAD
   class Carousel {
     constructor(element, config) {
@@ -3974,6 +4117,11 @@
   var Carousel = /*#__PURE__*/function () {
     function Carousel(element, config) {
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+  var Carousel = /*#__PURE__*/function () {
+    function Carousel(element, config) {
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this._items = null;
       this._interval = null;
       this._activeElement = null;
@@ -3983,9 +4131,12 @@
       this.touchStartX = 0;
       this.touchDeltaX = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this._config = this._getConfig(config);
       this._element = element;
       this._indicatorsElement = this._element.querySelector(SELECTOR_INDICATORS);
@@ -3993,6 +4144,7 @@
       this._pointerEvent = Boolean(window.PointerEvent || window.MSPointerEvent);
 
       this._addEventListeners();
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -4032,6 +4184,8 @@
 
     pause(event) {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // Getters
 
 
@@ -4059,7 +4213,10 @@
     };
 
     _proto.pause = function pause(event) {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (!event) {
         this._isPaused = true;
       }
@@ -4072,6 +4229,7 @@
       clearInterval(this._interval);
       this._interval = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 
     cycle(event) {
@@ -4080,6 +4238,11 @@
 
     _proto.cycle = function cycle(event) {
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    };
+
+    _proto.cycle = function cycle(event) {
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (!event) {
         this._isPaused = false;
       }
@@ -4092,6 +4255,7 @@
       if (this._config.interval && !this._isPaused) {
         this._updateInterval();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         this._interval = setInterval(
           (document.visibilityState ? this.nextWhenVisible : this.next).bind(this),
@@ -4113,6 +4277,8 @@
         $__default['default'](this._element).one(EVENT_SLID, () => this.to(index));
         return
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         this._interval = setInterval((document.visibilityState ? this.nextWhenVisible : this.next).bind(this), this._config.interval);
       }
     };
@@ -4133,12 +4299,16 @@
           return _this.to(index);
         });
         return;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }
 
       if (activeIndex === index) {
         this.pause();
         this.cycle();
+<<<<<<< HEAD
 <<<<<<< HEAD
         return
       }
@@ -4155,6 +4325,8 @@
       $__default['default'].removeData(this._element, DATA_KEY$8);
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         return;
       }
 
@@ -4166,7 +4338,10 @@
     _proto.dispose = function dispose() {
       $__default['default'](this._element).off(EVENT_KEY$2);
       $__default['default'].removeData(this._element, DATA_KEY$2);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this._items = null;
       this._config = null;
       this._element = null;
@@ -4175,6 +4350,7 @@
       this._isSliding = null;
       this._activeElement = null;
       this._indicatorsElement = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -4221,6 +4397,8 @@
           .on(EVENT_MOUSEENTER, event => this.pause(event))
           .on(EVENT_MOUSELEAVE, event => this.cycle(event));
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // Private
     ;
 
@@ -4265,12 +4443,16 @@
         }).on(EVENT_MOUSELEAVE, function (event) {
           return _this2.cycle(event);
         });
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }
 
       if (this._config.touch) {
         this._addTouchEventListeners();
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -4304,6 +4486,8 @@
         this._handleSwipe();
         if (this._config.pause === 'hover') {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _proto._addTouchEventListeners = function _addTouchEventListeners() {
@@ -4338,7 +4522,10 @@
         _this3._handleSwipe();
 
         if (_this3._config.pause === 'hover') {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           // If it's a touch-enabled device, mouseenter/leave are fired as
           // part of the mouse compatibility events on first tap - the carousel
           // would stop cycling until user tapped out of it;
@@ -4346,6 +4533,7 @@
           // (as if it's the second time we tap on it, mouseenter compat event
           // is NOT fired) and after a timeout (to allow for mouse compatibility
           // events to fire) we explicitly restart cycling
+<<<<<<< HEAD
 <<<<<<< HEAD
 
           this.pause();
@@ -4376,6 +4564,8 @@
       if (/input|textarea/i.test(event.target.tagName)) {
         return
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           _this3.pause();
 
           if (_this3.touchTimeout) {
@@ -4417,13 +4607,17 @@
     _proto._keydown = function _keydown(event) {
       if (/input|textarea/i.test(event.target.tagName)) {
         return;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }
 
       switch (event.which) {
         case ARROW_LEFT_KEYCODE:
           event.preventDefault();
           this.prev();
+<<<<<<< HEAD
 <<<<<<< HEAD
           break
         case ARROW_RIGHT_KEYCODE:
@@ -4465,6 +4659,8 @@
       const slideEvent = $__default['default'].Event(EVENT_SLIDE, {
         relatedTarget,
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           break;
 
         case ARROW_RIGHT_KEYCODE:
@@ -4504,11 +4700,15 @@
 
       var slideEvent = $__default['default'].Event(EVENT_SLIDE, {
         relatedTarget: relatedTarget,
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         direction: eventDirectionName,
         from: fromIndex,
         to: targetIndex
       });
+<<<<<<< HEAD
 <<<<<<< HEAD
 
       $__default['default'](this._element).trigger(slideEvent);
@@ -4540,6 +4740,8 @@
 
       const elementInterval = parseInt(element.getAttribute('data-interval'), 10);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       $__default['default'](this._element).trigger(slideEvent);
       return slideEvent;
     };
@@ -4565,7 +4767,10 @@
       }
 
       var elementInterval = parseInt(element.getAttribute('data-interval'), 10);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       if (elementInterval) {
         this._config.defaultInterval = this._config.defaultInterval || this._config.interval;
@@ -4573,6 +4778,7 @@
       } else {
         this._config.interval = this._config.defaultInterval || this._config.interval;
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -4588,6 +4794,8 @@
       let orderClassName;
       let eventDirectionName;
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _proto._slide = function _slide(direction, element) {
@@ -4605,7 +4813,10 @@
       var directionalClassName;
       var orderClassName;
       var eventDirectionName;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       if (direction === DIRECTION_NEXT) {
         directionalClassName = CLASS_NAME_LEFT;
@@ -4618,6 +4829,7 @@
       }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (nextElement && $__default['default'](nextElement).hasClass(CLASS_NAME_ACTIVE$2)) {
         this._isSliding = false;
         return
@@ -4627,6 +4839,8 @@
       if (slideEvent.isDefaultPrevented()) {
         return
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (nextElement && $__default['default'](nextElement).hasClass(CLASS_NAME_ACTIVE$1)) {
         this._isSliding = false;
         return;
@@ -4636,16 +4850,23 @@
 
       if (slideEvent.isDefaultPrevented()) {
         return;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }
 
       if (!activeElement || !nextElement) {
         // Some weirdness is happening, so we bail
 <<<<<<< HEAD
+<<<<<<< HEAD
         return
 =======
         return;
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+        return;
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }
 
       this._isSliding = true;
@@ -4656,6 +4877,7 @@
 
       this._setActiveIndicatorElement(nextElement);
 <<<<<<< HEAD
+<<<<<<< HEAD
       this._activeElement = nextElement;
 
       const slidEvent = $__default['default'].Event(EVENT_SLID, {
@@ -4664,6 +4886,11 @@
       this._activeElement = nextElement;
       var slidEvent = $__default['default'].Event(EVENT_SLID, {
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+      this._activeElement = nextElement;
+      var slidEvent = $__default['default'].Event(EVENT_SLID, {
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         relatedTarget: nextElement,
         direction: eventDirectionName,
         from: activeElementIndex,
@@ -4672,6 +4899,7 @@
 
       if ($__default['default'](this._element).hasClass(CLASS_NAME_SLIDE)) {
         $__default['default'](nextElement).addClass(orderClassName);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         Util.reflow(nextElement);
@@ -4699,6 +4927,8 @@
         $__default['default'](nextElement).addClass(CLASS_NAME_ACTIVE$2);
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         Util.reflow(nextElement);
         $__default['default'](activeElement).addClass(directionalClassName);
         $__default['default'](nextElement).addClass(directionalClassName);
@@ -4714,7 +4944,10 @@
       } else {
         $__default['default'](activeElement).removeClass(CLASS_NAME_ACTIVE$1);
         $__default['default'](nextElement).addClass(CLASS_NAME_ACTIVE$1);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         this._isSliding = false;
         $__default['default'](this._element).trigger(slidEvent);
       }
@@ -4722,6 +4955,7 @@
       if (isCycling) {
         this.cycle();
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -4748,6 +4982,8 @@
           data = new Carousel(this, _config);
           $__default['default'](this).data(DATA_KEY$8, data);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // Static
     ;
 
@@ -4766,7 +5002,10 @@
         if (!data) {
           data = new Carousel(this, _config);
           $__default['default'](this).data(DATA_KEY$2, data);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         if (typeof config === 'number') {
@@ -4774,10 +5013,14 @@
         } else if (typeof action === 'string') {
           if (typeof data[action] === 'undefined') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new TypeError(`No method named "${action}"`)
 =======
             throw new TypeError("No method named \"" + action + "\"");
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+            throw new TypeError("No method named \"" + action + "\"");
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           }
 
           data[action]();
@@ -4785,6 +5028,7 @@
           data.pause();
           data.cycle();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
       })
     }
@@ -4808,6 +5052,8 @@
       };
       const slideIndex = this.getAttribute('data-slide-to');
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       });
     };
 
@@ -4827,7 +5073,10 @@
       var config = _extends({}, $__default['default'](target).data(), $__default['default'](this).data());
 
       var slideIndex = this.getAttribute('data-slide-to');
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       if (slideIndex) {
         config.interval = false;
@@ -4837,6 +5086,7 @@
 
       if (slideIndex) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $__default['default'](target).data(DATA_KEY$8).to(slideIndex);
       }
 
@@ -4845,6 +5095,8 @@
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         $__default['default'](target).data(DATA_KEY$2).to(slideIndex);
       }
 
@@ -4865,13 +5117,17 @@
 
     return Carousel;
   }();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Data Api implementation
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'](document).on(EVENT_CLICK_DATA_API$4, SELECTOR_DATA_SLIDE, Carousel._dataApiClickHandler);
 
@@ -4884,6 +5140,8 @@
   });
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   $__default['default'](document).on(EVENT_CLICK_DATA_API$2, SELECTOR_DATA_SLIDE, Carousel._dataApiClickHandler);
   $__default['default'](window).on(EVENT_LOAD_DATA_API$1, function () {
@@ -4895,13 +5153,17 @@
       Carousel._jQueryInterface.call($carousel, $carousel.data());
     }
   });
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * jQuery
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'].fn[NAME$8] = Carousel._jQueryInterface;
   $__default['default'].fn[NAME$8].Constructor = Carousel;
@@ -4918,6 +5180,8 @@
    */
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   $__default['default'].fn[NAME$2] = Carousel._jQueryInterface;
   $__default['default'].fn[NAME$2].Constructor = Carousel;
 
@@ -4925,13 +5189,17 @@
     $__default['default'].fn[NAME$2] = JQUERY_NO_CONFLICT$2;
     return Carousel._jQueryInterface;
   };
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Constants
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   const NAME$7 = 'collapse';
   const VERSION$7 = '4.6.0';
@@ -4968,6 +5236,8 @@
   const SELECTOR_DATA_TOGGLE$3 = '[data-toggle="collapse"]';
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   var NAME$3 = 'collapse';
   var VERSION$3 = '4.6.0';
@@ -4996,13 +5266,17 @@
   var DIMENSION_HEIGHT = 'height';
   var SELECTOR_ACTIVES = '.show, .collapsing';
   var SELECTOR_DATA_TOGGLE$1 = '[data-toggle="collapse"]';
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Class Definition
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   class Collapse {
     constructor(element, config) {
@@ -5024,6 +5298,8 @@
         if (selector !== null && filterElement.length > 0) {
           this._selector = selector;
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var Collapse = /*#__PURE__*/function () {
     function Collapse(element, config) {
       this._isTransitioning = false;
@@ -5042,7 +5318,10 @@
         if (selector !== null && filterElement.length > 0) {
           this._selector = selector;
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           this._triggerArray.push(elem);
         }
       }
@@ -5056,6 +5335,7 @@
       if (this._config.toggle) {
         this.toggle();
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -5074,6 +5354,8 @@
     toggle() {
       if ($__default['default'](this._element).hasClass(CLASS_NAME_SHOW$6)) {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // Getters
 
 
@@ -5081,11 +5363,15 @@
 
     _proto.toggle = function toggle() {
       if ($__default['default'](this._element).hasClass(CLASS_NAME_SHOW$1)) {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         this.hide();
       } else {
         this.show();
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -5108,6 +5394,8 @@
             return elem.classList.contains(CLASS_NAME_COLLAPSE)
           });
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _proto.show = function show() {
@@ -5128,7 +5416,10 @@
 
           return elem.classList.contains(CLASS_NAME_COLLAPSE);
         });
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
         if (actives.length === 0) {
           actives = null;
@@ -5136,6 +5427,7 @@
       }
 
       if (actives) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         activesData = $__default['default'](actives).not(this._selector).data(DATA_KEY$7);
         if (activesData && activesData._isTransitioning) {
@@ -5148,6 +5440,8 @@
       if (startEvent.isDefaultPrevented()) {
         return
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         activesData = $__default['default'](actives).not(this._selector).data(DATA_KEY$3);
 
         if (activesData && activesData._isTransitioning) {
@@ -5160,11 +5454,15 @@
 
       if (startEvent.isDefaultPrevented()) {
         return;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }
 
       if (actives) {
         Collapse._jQueryInterface.call($__default['default'](actives).not(this._selector), 'hide');
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (!activesData) {
           $__default['default'](actives).data(DATA_KEY$7, null);
@@ -5184,6 +5482,8 @@
           .removeClass(CLASS_NAME_COLLAPSED)
           .attr('aria-expanded', true);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
         if (!activesData) {
           $__default['default'](actives).data(DATA_KEY$3, null);
@@ -5197,11 +5497,15 @@
 
       if (this._triggerArray.length) {
         $__default['default'](this._triggerArray).removeClass(CLASS_NAME_COLLAPSED).attr('aria-expanded', true);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }
 
       this.setTransitioning(true);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       const complete = () => {
         $__default['default'](this._element)
@@ -5260,6 +5564,8 @@
               $__default['default'](trigger).addClass(CLASS_NAME_COLLAPSED)
                 .attr('aria-expanded', false);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       var complete = function complete() {
         $__default['default'](_this._element).removeClass(CLASS_NAME_COLLAPSING).addClass(CLASS_NAME_COLLAPSE + " " + CLASS_NAME_SHOW$1);
         _this._element.style[dimension] = '';
@@ -5307,7 +5613,10 @@
 
             if (!$elem.hasClass(CLASS_NAME_SHOW$1)) {
               $__default['default'](trigger).addClass(CLASS_NAME_COLLAPSED).attr('aria-expanded', false);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
             }
           }
         }
@@ -5315,6 +5624,7 @@
 
       this.setTransitioning(true);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       const complete = () => {
         this.setTransitioning(false);
@@ -5340,6 +5650,8 @@
       $__default['default'].removeData(this._element, DATA_KEY$7);
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       var complete = function complete() {
         _this2.setTransitioning(false);
 
@@ -5357,12 +5669,16 @@
 
     _proto.dispose = function dispose() {
       $__default['default'].removeData(this._element, DATA_KEY$3);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this._config = null;
       this._parent = null;
       this._element = null;
       this._triggerArray = null;
       this._isTransitioning = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -5391,6 +5707,8 @@
 
         // It's a jQuery object
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // Private
     ;
 
@@ -5415,7 +5733,10 @@
       if (Util.isElement(this._config.parent)) {
         parent = this._config.parent; // It's a jQuery object
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         if (typeof this._config.parent.jquery !== 'undefined') {
           parent = this._config.parent[0];
         }
@@ -5423,6 +5744,7 @@
         parent = document.querySelector(this._config.parent);
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       const selector = `[data-toggle="collapse"][data-parent="${this._config.parent}"]`;
       const children = [].slice.call(parent.querySelectorAll(selector));
@@ -5464,6 +5786,8 @@
           ...(typeof config === 'object' && config ? config : {})
         };
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       var selector = "[data-toggle=\"collapse\"][data-parent=\"" + this._config.parent + "\"]";
       var children = [].slice.call(parent.querySelectorAll(selector));
       $__default['default'](children).each(function (i, element) {
@@ -5492,7 +5816,10 @@
         var data = $element.data(DATA_KEY$3);
 
         var _config = _extends({}, Default$1, $element.data(), typeof config === 'object' && config ? config : {});
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
         if (!data && _config.toggle && typeof config === 'string' && /show|hide/.test(config)) {
           _config.toggle = false;
@@ -5501,29 +5828,40 @@
         if (!data) {
           data = new Collapse(this, _config);
 <<<<<<< HEAD
+<<<<<<< HEAD
           $element.data(DATA_KEY$7, data);
 =======
           $element.data(DATA_KEY$3, data);
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+          $element.data(DATA_KEY$3, data);
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         if (typeof config === 'string') {
           if (typeof data[config] === 'undefined') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new TypeError(`No method named "${config}"`)
 =======
             throw new TypeError("No method named \"" + config + "\"");
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+            throw new TypeError("No method named \"" + config + "\"");
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           }
 
           data[config]();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
       })
     }
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       });
     };
 
@@ -5541,7 +5879,10 @@
 
     return Collapse;
   }();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Data Api implementation
@@ -5549,16 +5890,22 @@
    */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   $__default['default'](document).on(EVENT_CLICK_DATA_API$3, SELECTOR_DATA_TOGGLE$3, function (event) {
 =======
 
   $__default['default'](document).on(EVENT_CLICK_DATA_API$3, SELECTOR_DATA_TOGGLE$1, function (event) {
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+  $__default['default'](document).on(EVENT_CLICK_DATA_API$3, SELECTOR_DATA_TOGGLE$1, function (event) {
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     // preventDefault only for <a> elements (which change the URL) not inside the collapsible element
     if (event.currentTarget.tagName === 'A') {
       event.preventDefault();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     const $trigger = $__default['default'](this);
     const selector = Util.getSelectorFromElement(this);
@@ -5573,6 +5920,8 @@
   });
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var $trigger = $__default['default'](this);
     var selector = Util.getSelectorFromElement(this);
     var selectors = [].slice.call(document.querySelectorAll(selector));
@@ -5584,13 +5933,17 @@
       Collapse._jQueryInterface.call($target, config);
     });
   });
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * jQuery
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'].fn[NAME$7] = Collapse._jQueryInterface;
   $__default['default'].fn[NAME$7].Constructor = Collapse;
@@ -5600,6 +5953,8 @@
   };
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   $__default['default'].fn[NAME$3] = Collapse._jQueryInterface;
   $__default['default'].fn[NAME$3].Constructor = Collapse;
 
@@ -5607,7 +5962,10 @@
     $__default['default'].fn[NAME$3] = JQUERY_NO_CONFLICT$3;
     return Collapse._jQueryInterface;
   };
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**!
    * @fileOverview Kickass library to create and place poppers near their reference elements.
    * @version 1.16.1
@@ -5633,27 +5991,40 @@
    * SOFTWARE.
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var isBrowser = typeof window !== 'undefined' && typeof document !== 'undefined' && typeof navigator !== 'undefined';
 
   var timeoutDuration = function () {
     var longerTimeoutBrowsers = ['Edge', 'Trident', 'Firefox'];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     for (var i = 0; i < longerTimeoutBrowsers.length; i += 1) {
       if (isBrowser && navigator.userAgent.indexOf(longerTimeoutBrowsers[i]) >= 0) {
         return 1;
       }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     return 0;
   }();
 
@@ -5664,9 +6035,13 @@
         return;
       }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       called = true;
       window.Promise.resolve().then(function () {
         called = false;
@@ -5690,9 +6065,12 @@
 
   var supportsMicroTasks = isBrowser && window.Promise;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
   * Create a debounced version of a method, that's asynchronously deferred
   * but called in the minimum time possible.
@@ -5703,12 +6081,17 @@
   * @returns {Function}
   */
 <<<<<<< HEAD
+<<<<<<< HEAD
   var debounce = supportsMicroTasks ? microtaskDebounce : taskDebounce;
 
 =======
 
   var debounce = supportsMicroTasks ? microtaskDebounce : taskDebounce;
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+  var debounce = supportsMicroTasks ? microtaskDebounce : taskDebounce;
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Check if the given variable is a function
    * @method
@@ -5717,17 +6100,24 @@
    * @returns {Boolean} answer to: is a function?
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function isFunction(functionToCheck) {
     var getType = {};
     return functionToCheck && getType.toString.call(functionToCheck) === '[object Function]';
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Get CSS computed property of the given element
    * @method
@@ -5736,12 +6126,15 @@
    * @argument {String} property
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function getStyleComputedProperty(element, property) {
     if (element.nodeType !== 1) {
       return [];
     }
     // NOTE: 1 DOM access here
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function getStyleComputedProperty(element, property) {
@@ -5750,15 +6143,21 @@
     } // NOTE: 1 DOM access here
 
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var window = element.ownerDocument.defaultView;
     var css = window.getComputedStyle(element, null);
     return property ? css[property] : css;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Returns the parentNode or the host of the element
    * @method
@@ -5767,14 +6166,20 @@
    * @returns {Element} parent
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function getParentNode(element) {
     if (element.nodeName === 'HTML') {
       return element;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     return element.parentNode || element.host;
   }
@@ -5784,6 +6189,11 @@
     return element.parentNode || element.host;
   }
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+    return element.parentNode || element.host;
+  }
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Returns the scrolling parent of the given element
    * @method
@@ -5792,10 +6202,15 @@
    * @returns {Element} scroll parent
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function getScrollParent(element) {
     // Return body, `getScroll` will take care to get the correct `scrollTop` from it
     if (!element) {
@@ -5807,18 +6222,24 @@
       case 'BODY':
         return element.ownerDocument.body;
 <<<<<<< HEAD
+<<<<<<< HEAD
       case '#document':
         return element.body;
     }
 
     // Firefox want us to check `-x` and `-y` variations as well
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       case '#document':
         return element.body;
     } // Firefox want us to check `-x` and `-y` variations as well
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
     var _getStyleComputedProp = getStyleComputedProperty(element),
         overflow = _getStyleComputedProp.overflow,
@@ -5832,9 +6253,12 @@
     return getScrollParent(getParentNode(element));
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Returns the reference node of the reference object, or the reference object itself.
    * @method
@@ -5843,10 +6267,15 @@
    * @returns {Element} parent
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function getReferenceNode(reference) {
     return reference && reference.referenceNode ? reference.referenceNode : reference;
   }
@@ -5854,9 +6283,12 @@
   var isIE11 = isBrowser && !!(window.MSInputMethodContext && document.documentMode);
   var isIE10 = isBrowser && /MSIE 10/.test(navigator.userAgent);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Determines if the browser is Internet Explorer
    * @method
@@ -5865,13 +6297,18 @@
    * @returns {Boolean} isIE
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function isIE(version) {
     if (version === 11) {
       return isIE11;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     if (version === 10) {
       return isIE10;
@@ -5880,6 +6317,8 @@
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
     if (version === 10) {
       return isIE10;
@@ -5887,7 +6326,10 @@
 
     return isIE11 || isIE10;
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Returns the offset parent of the given element
    * @method
@@ -5896,15 +6338,21 @@
    * @returns {Element} offset parent
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function getOffsetParent(element) {
     if (!element) {
       return document.documentElement;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     var noOffsetParent = isIE(10) ? document.body : null;
 
@@ -5912,11 +6360,16 @@
     var offsetParent = element.offsetParent || null;
     // Skip hidden elements which don't have an offsetParent
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var noOffsetParent = isIE(10) ? document.body : null; // NOTE: 1 DOM access here
 
     var offsetParent = element.offsetParent || null; // Skip hidden elements which don't have an offsetParent
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     while (offsetParent === noOffsetParent && element.nextElementSibling) {
       offsetParent = (element = element.nextElementSibling).offsetParent;
     }
@@ -5926,16 +6379,22 @@
     if (!nodeName || nodeName === 'BODY' || nodeName === 'HTML') {
       return element ? element.ownerDocument.documentElement : document.documentElement;
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 
     // .offsetParent will return the closest TH, TD or TABLE in case
     // no offsetParent is present, I hate this job...
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // .offsetParent will return the closest TH, TD or TABLE in case
     // no offsetParent is present, I hate this job...
 
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (['TH', 'TD', 'TABLE'].indexOf(offsetParent.nodeName) !== -1 && getStyleComputedProperty(offsetParent, 'position') === 'static') {
       return getOffsetParent(offsetParent);
     }
@@ -5950,6 +6409,7 @@
       return false;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     return nodeName === 'HTML' || getOffsetParent(element.firstElementChild) === element;
   }
 
@@ -5958,6 +6418,11 @@
     return nodeName === 'HTML' || getOffsetParent(element.firstElementChild) === element;
   }
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+    return nodeName === 'HTML' || getOffsetParent(element.firstElementChild) === element;
+  }
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Finds the root node (document, shadowDOM root) of the given element
    * @method
@@ -5966,10 +6431,15 @@
    * @returns {Element} root node
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function getRoot(node) {
     if (node.parentNode !== null) {
       return getRoot(node.parentNode);
@@ -5978,9 +6448,12 @@
     return node;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Finds the offset parent common to the two provided nodes
    * @method
@@ -5990,14 +6463,20 @@
    * @returns {Element} common offset parent
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function findCommonOffsetParent(element1, element2) {
     // This check is needed to avoid errors in case one of the elements isn't defined for any reason
     if (!element1 || !element1.nodeType || !element2 || !element2.nodeType) {
       return document.documentElement;
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -6014,6 +6493,8 @@
 
     // Both nodes are inside #document
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // Here we make sure to give as "start" the element that comes first in the DOM
 
 
@@ -6025,7 +6506,10 @@
     range.setStart(start, 0);
     range.setEnd(end, 0);
     var commonAncestorContainer = range.commonAncestorContainer; // Both nodes are inside #document
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
     if (element1 !== commonAncestorContainer && element2 !== commonAncestorContainer || start.contains(end)) {
       if (isOffsetContainer(commonAncestorContainer)) {
@@ -6034,17 +6518,23 @@
 
       return getOffsetParent(commonAncestorContainer);
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 
     // one of the nodes is inside shadowDOM, find which one
     var element1root = getRoot(element1);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // one of the nodes is inside shadowDOM, find which one
 
 
     var element1root = getRoot(element1);
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (element1root.host) {
       return findCommonOffsetParent(element1root.host, element2);
     } else {
@@ -6052,9 +6542,12 @@
     }
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Gets the scroll value of the given element in the given side (top and left)
    * @method
@@ -6064,15 +6557,21 @@
    * @returns {number} amount of scrolled pixels
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function getScroll(element) {
     var side = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'top';
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function getScroll(element) {
     var side = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'top';
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var upperSide = side === 'top' ? 'scrollTop' : 'scrollLeft';
     var nodeName = element.nodeName;
 
@@ -6085,9 +6584,12 @@
     return element[upperSide];
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /*
    * Sum or subtract the element scroll values (left and top) from a given rect object
    * @method
@@ -6098,15 +6600,21 @@
    * @return {Object} rect - The modifier rect object
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function includeScroll(rect, element) {
     var subtract = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function includeScroll(rect, element) {
     var subtract = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var scrollTop = getScroll(element, 'top');
     var scrollLeft = getScroll(element, 'left');
     var modifier = subtract ? -1 : 1;
@@ -6117,9 +6625,12 @@
     return rect;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /*
    * Helper to detect borders of a given element
    * @method
@@ -6131,16 +6642,22 @@
    */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   function getBordersSize(styles, axis) {
     var sideA = axis === 'x' ? 'Left' : 'Top';
     var sideB = sideA === 'Left' ? 'Right' : 'Bottom';
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   function getBordersSize(styles, axis) {
     var sideA = axis === 'x' ? 'Left' : 'Top';
     var sideB = sideA === 'Left' ? 'Right' : 'Bottom';
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     return parseFloat(styles['border' + sideA + 'Width']) + parseFloat(styles['border' + sideB + 'Width']);
   }
 
@@ -6153,9 +6670,12 @@
     var html = document.documentElement;
     var computedStyle = isIE(10) && getComputedStyle(html);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     return {
       height: getSize('Height', body, html, computedStyle),
       width: getSize('Width', body, html, computedStyle)
@@ -6187,12 +6707,15 @@
   }();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var defineProperty = function (obj, key, value) {
     if (key in obj) {
       Object.defineProperty(obj, key, {
@@ -6209,10 +6732,14 @@
   };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   var _extends = Object.assign || function (target) {
 =======
   var _extends$1 = Object.assign || function (target) {
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+  var _extends$1 = Object.assign || function (target) {
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     for (var i = 1; i < arguments.length; i++) {
       var source = arguments[i];
 
@@ -6226,9 +6753,12 @@
     return target;
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Given element offsets, generate an output similar to getBoundingClientRect
    * @method
@@ -6237,22 +6767,31 @@
    * @returns {Object} ClientRect like output
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function getClientRect(offsets) {
     return _extends({}, offsets, {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function getClientRect(offsets) {
     return _extends$1({}, offsets, {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       right: offsets.left + offsets.width,
       bottom: offsets.top + offsets.height
     });
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Get bounding client rect of given element
    * @method
@@ -6261,6 +6800,7 @@
    * @return {Object} client rect
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function getBoundingClientRect(element) {
     var rect = {};
 
@@ -6268,6 +6808,8 @@
     // considered in DOM in some circumstances...
     // This isn't reproducible in IE10 compatibility mode of IE11
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function getBoundingClientRect(element) {
@@ -6275,7 +6817,10 @@
     // considered in DOM in some circumstances...
     // This isn't reproducible in IE10 compatibility mode of IE11
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     try {
       if (isIE(10)) {
         rect = element.getBoundingClientRect();
@@ -6296,6 +6841,7 @@
       width: rect.right - rect.left,
       height: rect.bottom - rect.top
 <<<<<<< HEAD
+<<<<<<< HEAD
     };
 
     // subtract scrollbar size from sizes
@@ -6309,6 +6855,8 @@
     // if an hypothetical scrollbar is detected, we must be sure it's not a `border`
     // we make this check conditional for performance reasons
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     }; // subtract scrollbar size from sizes
 
     var sizes = element.nodeName === 'HTML' ? getWindowSizes(element.ownerDocument) : {};
@@ -6318,15 +6866,21 @@
     var vertScrollbar = element.offsetHeight - height; // if an hypothetical scrollbar is detected, we must be sure it's not a `border`
     // we make this check conditional for performance reasons
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (horizScrollbar || vertScrollbar) {
       var styles = getStyleComputedProperty(element);
       horizScrollbar -= getBordersSize(styles, 'x');
       vertScrollbar -= getBordersSize(styles, 'y');
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       result.width -= horizScrollbar;
       result.height -= vertScrollbar;
     }
@@ -6337,14 +6891,18 @@
   function getOffsetRectRelativeToArbitraryNode(children, parent) {
     var fixedPosition = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var isIE10 = isIE(10);
     var isHTML = parent.nodeName === 'HTML';
     var childrenRect = getBoundingClientRect(children);
     var parentRect = getBoundingClientRect(parent);
     var scrollParent = getScrollParent(children);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     var styles = getStyleComputedProperty(parent);
@@ -6353,19 +6911,28 @@
 
     // In cases where the parent is fixed, we must ignore negative scroll in offset calc
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var styles = getStyleComputedProperty(parent);
     var borderTopWidth = parseFloat(styles.borderTopWidth);
     var borderLeftWidth = parseFloat(styles.borderLeftWidth); // In cases where the parent is fixed, we must ignore negative scroll in offset calc
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (fixedPosition && isHTML) {
       parentRect.top = Math.max(parentRect.top, 0);
       parentRect.left = Math.max(parentRect.left, 0);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var offsets = getClientRect({
       top: childrenRect.top - parentRect.top - borderTopWidth,
       left: childrenRect.left - parentRect.left - borderLeftWidth,
@@ -6373,6 +6940,7 @@
       height: childrenRect.height
     });
     offsets.marginTop = 0;
+<<<<<<< HEAD
 <<<<<<< HEAD
     offsets.marginLeft = 0;
 
@@ -6391,6 +6959,8 @@
 
       // Attach marginTop and marginLeft because in some circumstances we may need them
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     offsets.marginLeft = 0; // Subtract margins of documentElement in case it's being used as parent
     // we do this only on HTML because it's the only element that behaves
     // differently when margins are applied to it. The margins are included in
@@ -6404,7 +6974,10 @@
       offsets.left -= borderLeftWidth - marginLeft;
       offsets.right -= borderLeftWidth - marginLeft; // Attach marginTop and marginLeft because in some circumstances we may need them
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       offsets.marginTop = marginTop;
       offsets.marginLeft = marginLeft;
     }
@@ -6419,13 +6992,17 @@
   function getViewportOffsetRectRelativeToArtbitraryNode(element) {
     var excludeScroll = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var html = element.ownerDocument.documentElement;
     var relativeOffset = getOffsetRectRelativeToArbitraryNode(element, html);
     var width = Math.max(html.clientWidth, window.innerWidth || 0);
     var height = Math.max(html.clientHeight, window.innerHeight || 0);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     var scrollTop = !excludeScroll ? getScroll(html) : 0;
@@ -6435,6 +7012,10 @@
     var scrollTop = !excludeScroll ? getScroll(html) : 0;
     var scrollLeft = !excludeScroll ? getScroll(html, 'left') : 0;
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    var scrollTop = !excludeScroll ? getScroll(html) : 0;
+    var scrollLeft = !excludeScroll ? getScroll(html, 'left') : 0;
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var offset = {
       top: scrollTop - relativeOffset.top + relativeOffset.marginTop,
       left: scrollLeft - relativeOffset.left + relativeOffset.marginLeft,
@@ -6442,6 +7023,7 @@
       height: height
     };
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     return getClientRect(offset);
   }
@@ -6450,6 +7032,10 @@
     return getClientRect(offset);
   }
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    return getClientRect(offset);
+  }
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Check if the given element is fixed or is inside a fixed parent
    * @method
@@ -6459,6 +7045,7 @@
    * @returns {Boolean} answer to "isFixed?"
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function isFixed(element) {
     var nodeName = element.nodeName;
     if (nodeName === 'BODY' || nodeName === 'HTML') {
@@ -6475,6 +7062,8 @@
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function isFixed(element) {
@@ -6496,7 +7085,10 @@
 
     return isFixed(parentNode);
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Finds the first parent of an element that has a transformed property defined
    * @method
@@ -6506,14 +7098,19 @@
    */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function getFixedPositionOffsetParent(element) {
     // This check is needed to avoid errors in case one of the elements isn't defined for any reason
     if (!element || !element.parentElement || isIE()) {
       return document.documentElement;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     var el = element.parentElement;
     while (el && getStyleComputedProperty(el, 'transform') === 'none') {
@@ -6523,6 +7120,8 @@
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
     var el = element.parentElement;
 
@@ -6532,7 +7131,10 @@
 
     return el || document.documentElement;
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Computed the boundaries limits and return them
    * @method
@@ -6542,6 +7144,7 @@
    * @param {number} padding
    * @param {HTMLElement} boundariesElement - Element used to define the boundaries
    * @param {Boolean} fixedPosition - Is in fixed position mode
+<<<<<<< HEAD
    * @returns {Object} Coordinates of the boundaries
    */
 <<<<<<< HEAD
@@ -6555,6 +7158,10 @@
 
     // Handle viewport case
 =======
+=======
+   * @returns {Object} Coordinates of the boundaries
+   */
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function getBoundaries(popper, reference, padding, boundariesElement) {
@@ -6566,21 +7173,30 @@
     };
     var offsetParent = fixedPosition ? getFixedPositionOffsetParent(popper) : findCommonOffsetParent(popper, getReferenceNode(reference)); // Handle viewport case
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (boundariesElement === 'viewport') {
       boundaries = getViewportOffsetRectRelativeToArtbitraryNode(offsetParent, fixedPosition);
     } else {
       // Handle other cases based on DOM element used as boundaries
       var boundariesNode = void 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (boundariesElement === 'scrollParent') {
         boundariesNode = getScrollParent(getParentNode(reference));
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       if (boundariesElement === 'scrollParent') {
         boundariesNode = getScrollParent(getParentNode(reference));
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         if (boundariesNode.nodeName === 'BODY') {
           boundariesNode = popper.ownerDocument.documentElement;
         }
@@ -6591,6 +7207,7 @@
       }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       var offsets = getOffsetRectRelativeToArbitraryNode(boundariesNode, offsetParent, fixedPosition);
 
       // In case of HTML, we need a different computation
@@ -6598,6 +7215,10 @@
       var offsets = getOffsetRectRelativeToArbitraryNode(boundariesNode, offsetParent, fixedPosition); // In case of HTML, we need a different computation
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+      var offsets = getOffsetRectRelativeToArbitraryNode(boundariesNode, offsetParent, fixedPosition); // In case of HTML, we need a different computation
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (boundariesNode.nodeName === 'HTML' && !isFixed(offsetParent)) {
         var _getWindowSizes = getWindowSizes(popper.ownerDocument),
             height = _getWindowSizes.height,
@@ -6612,6 +7233,7 @@
         boundaries = offsets;
       }
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 
     // Add paddings
@@ -6620,6 +7242,11 @@
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    } // Add paddings
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     padding = padding || 0;
     var isPaddingNumber = typeof padding === 'number';
     boundaries.left += isPaddingNumber ? padding : padding.left || 0;
@@ -6627,15 +7254,19 @@
     boundaries.right -= isPaddingNumber ? padding : padding.right || 0;
     boundaries.bottom -= isPaddingNumber ? padding : padding.bottom || 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     return boundaries;
   }
 
   function getArea(_ref) {
     var width = _ref.width,
         height = _ref.height;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     return width * height;
@@ -6645,6 +7276,10 @@
     return width * height;
   }
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    return width * height;
+  }
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Utility used to transform the `auto` placement to the placement with more
    * available space.
@@ -6655,10 +7290,15 @@
    * @returns {Object} The data object, properly modified
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function computeAutoPlacement(placement, refRect, popper, reference, boundariesElement) {
     var padding = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 0;
 
@@ -6668,9 +7308,12 @@
 
     var boundaries = getBoundaries(popper, reference, padding, boundariesElement);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var rects = {
       top: {
         width: boundaries.width,
@@ -6690,6 +7333,7 @@
       }
     };
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     var sortedAreas = Object.keys(rects).map(function (key) {
       return _extends({
@@ -6697,6 +7341,10 @@
     var sortedAreas = Object.keys(rects).map(function (key) {
       return _extends$1({
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    var sortedAreas = Object.keys(rects).map(function (key) {
+      return _extends$1({
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         key: key
       }, rects[key], {
         area: getArea(rects[key])
@@ -6705,14 +7353,18 @@
       return b.area - a.area;
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var filteredAreas = sortedAreas.filter(function (_ref2) {
       var width = _ref2.width,
           height = _ref2.height;
       return width >= popper.clientWidth && height >= popper.clientHeight;
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     var computedPlacement = filteredAreas.length > 0 ? filteredAreas[0].key : sortedAreas[0].key;
@@ -6723,11 +7375,16 @@
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var computedPlacement = filteredAreas.length > 0 ? filteredAreas[0].key : sortedAreas[0].key;
     var variation = placement.split('-')[1];
     return computedPlacement + (variation ? '-' + variation : '');
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Get offsets to the reference element
    * @method
@@ -6739,6 +7396,7 @@
    * @returns {Object} An object containing the offsets which will be applied to the popper
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function getReferenceOffsets(state, popper, reference) {
     var fixedPosition = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : null;
 
@@ -6747,6 +7405,8 @@
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function getReferenceOffsets(state, popper, reference) {
@@ -6754,7 +7414,10 @@
     var commonOffsetParent = fixedPosition ? getFixedPositionOffsetParent(popper) : findCommonOffsetParent(popper, getReferenceNode(reference));
     return getOffsetRectRelativeToArbitraryNode(reference, commonOffsetParent, fixedPosition);
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Get the outer sizes of the given element (offset size + margins)
    * @method
@@ -6763,10 +7426,15 @@
    * @returns {Object} object containing width and height properties
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function getOuterSizes(element) {
     var window = element.ownerDocument.defaultView;
     var styles = window.getComputedStyle(element);
@@ -6779,9 +7447,12 @@
     return result;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Get the opposite placement of the given one
    * @method
@@ -6790,9 +7461,12 @@
    * @returns {String} flipped placement
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function getOppositePlacement(placement) {
     var hash = { left: 'right', right: 'left', bottom: 'top', top: 'bottom' };
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function getOppositePlacement(placement) {
@@ -6802,15 +7476,21 @@
       bottom: 'top',
       top: 'bottom'
     };
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     return placement.replace(/left|right|bottom|top/g, function (matched) {
       return hash[matched];
     });
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Get offsets to the popper
    * @method
@@ -6821,6 +7501,7 @@
    * @param {String} placement - one of the valid placement options
    * @returns {Object} popperOffsets - An object containing the offsets which will be applied to the popper
    */
+<<<<<<< HEAD
 <<<<<<< HEAD
   function getPopperOffsets(popper, referenceOffsets, placement) {
     placement = placement.split('-')[0];
@@ -6836,6 +7517,8 @@
 
     // depending by the popper placement we have to compute its offsets slightly differently
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function getPopperOffsets(popper, referenceOffsets, placement) {
@@ -6848,12 +7531,16 @@
       height: popperRect.height
     }; // depending by the popper placement we have to compute its offsets slightly differently
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var isHoriz = ['right', 'left'].indexOf(placement) !== -1;
     var mainSide = isHoriz ? 'top' : 'left';
     var secondarySide = isHoriz ? 'left' : 'top';
     var measurement = isHoriz ? 'height' : 'width';
     var secondaryMeasurement = !isHoriz ? 'height' : 'width';
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     popperOffsets[mainSide] = referenceOffsets[mainSide] + referenceOffsets[measurement] / 2 - popperRect[measurement] / 2;
@@ -6861,6 +7548,10 @@
     popperOffsets[mainSide] = referenceOffsets[mainSide] + referenceOffsets[measurement] / 2 - popperRect[measurement] / 2;
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    popperOffsets[mainSide] = referenceOffsets[mainSide] + referenceOffsets[measurement] / 2 - popperRect[measurement] / 2;
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (placement === secondarySide) {
       popperOffsets[secondarySide] = referenceOffsets[secondarySide] - popperRect[secondaryMeasurement];
     } else {
@@ -6870,9 +7561,12 @@
     return popperOffsets;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Mimics the `find` method of Array
    * @method
@@ -6883,14 +7577,20 @@
    * @returns index or -1
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function find(arr, check) {
     // use native find if supported
     if (Array.prototype.find) {
       return arr.find(check);
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -6899,12 +7599,17 @@
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // use `filter` to obtain the same behavior of `find`
 
 
     return arr.filter(check)[0];
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Return the index of the matching object
    * @method
@@ -6915,16 +7620,22 @@
    * @returns index or -1
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function findIndex(arr, prop, value) {
     // use native findIndex if supported
     if (Array.prototype.findIndex) {
       return arr.findIndex(function (cur) {
         return cur[prop] === value;
       });
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -6934,15 +7645,23 @@
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    } // use `find` + `indexOf` if `findIndex` isn't supported
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var match = find(arr, function (obj) {
       return obj[prop] === value;
     });
     return arr.indexOf(match);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Loop trough the list of modifiers and run them in order,
    * each of them will then edit the data object.
@@ -6954,20 +7673,27 @@
    * @returns {dataObject}
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function runModifiers(modifiers, data, ends) {
     var modifiersToRun = ends === undefined ? modifiers : modifiers.slice(0, findIndex(modifiers, 'name', ends));
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function runModifiers(modifiers, data, ends) {
     var modifiersToRun = ends === undefined ? modifiers : modifiers.slice(0, findIndex(modifiers, 'name', ends));
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     modifiersToRun.forEach(function (modifier) {
       if (modifier['function']) {
         // eslint-disable-line dot-notation
         console.warn('`modifier.function` is deprecated, use `modifier.fn`!');
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
       var fn = modifier['function'] || modifier.fn; // eslint-disable-line dot-notation
 =======
@@ -6975,6 +7701,11 @@
       var fn = modifier['function'] || modifier.fn; // eslint-disable-line dot-notation
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+      var fn = modifier['function'] || modifier.fn; // eslint-disable-line dot-notation
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (modifier.enabled && isFunction(fn)) {
         // Add properties to offsets to make them a complete clientRect object
         // we do this before each modifier to make sure the previous one doesn't
@@ -6982,6 +7713,7 @@
         data.offsets.popper = getClientRect(data.offsets.popper);
         data.offsets.reference = getClientRect(data.offsets.reference);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         data = fn(data, modifier);
       }
@@ -6991,12 +7723,17 @@
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         data = fn(data, modifier);
       }
     });
     return data;
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Updates the position of the popper, computing the new offsets and applying
    * the new style.<br />
@@ -7005,10 +7742,15 @@
    * @memberof Popper
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function update() {
     // if popper is destroyed, don't perform any further update
     if (this.state.isDestroyed) {
@@ -7022,6 +7764,7 @@
       attributes: {},
       flipped: false,
       offsets: {}
+<<<<<<< HEAD
 <<<<<<< HEAD
     };
 
@@ -7049,6 +7792,8 @@
     // the first `update` will call `onCreate` callback
     // the other ones will call `onUpdate` callback
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     }; // compute reference element offsets
 
     data.offsets.reference = getReferenceOffsets(this.state, this.popper, this.reference, this.options.positionFixed); // compute auto placement, store placement inside the data object,
@@ -7066,7 +7811,10 @@
     data = runModifiers(this.modifiers, data); // the first `update` will call `onCreate` callback
     // the other ones will call `onUpdate` callback
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (!this.state.isCreated) {
       this.state.isCreated = true;
       this.options.onCreate(data);
@@ -7075,9 +7823,12 @@
     }
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Helper used to know if the given modifier is enabled.
    * @method
@@ -7085,10 +7836,15 @@
    * @returns {Boolean}
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function isModifierEnabled(modifiers, modifierName) {
     return modifiers.some(function (_ref) {
       var name = _ref.name,
@@ -7097,9 +7853,12 @@
     });
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Get the prefixed supported property name
    * @method
@@ -7108,10 +7867,15 @@
    * @returns {String} prefixed property (camelCase or PascalCase, depending on the vendor prefix)
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function getSupportedPropertyName(property) {
     var prefixes = [false, 'ms', 'Webkit', 'Moz', 'O'];
     var upperProp = property.charAt(0).toUpperCase() + property.slice(1);
@@ -7120,13 +7884,18 @@
       var prefix = prefixes[i];
       var toCheck = prefix ? '' + prefix + upperProp : property;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (typeof document.body.style[toCheck] !== 'undefined') {
         return toCheck;
       }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     return null;
   }
@@ -7136,23 +7905,34 @@
     return null;
   }
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+    return null;
+  }
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Destroys the popper.
    * @method
    * @memberof Popper
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function destroy() {
     this.state.isDestroyed = true;
 
     // touch DOM only if `applyStyle` modifier is enabled
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function destroy() {
     this.state.isDestroyed = true; // touch DOM only if `applyStyle` modifier is enabled
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (isModifierEnabled(this.modifiers, 'applyStyle')) {
       this.popper.removeAttribute('x-placement');
       this.popper.style.position = '';
@@ -7165,6 +7945,7 @@
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.disableEventListeners();
 
     // remove the popper if user explicitly asked for the deletion on destroy
@@ -7176,6 +7957,8 @@
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     this.disableEventListeners(); // remove the popper if user explicitly asked for the deletion on destroy
     // do not use `remove` because IE11 doesn't support it
 
@@ -7185,17 +7968,25 @@
 
     return this;
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Get the window associated with the element
    * @argument {Element} element
    * @returns {Window}
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function getWindow(element) {
     var ownerDocument = element.ownerDocument;
     return ownerDocument ? ownerDocument.defaultView : window;
@@ -7205,16 +7996,23 @@
     var isBody = scrollParent.nodeName === 'BODY';
     var target = isBody ? scrollParent.ownerDocument.defaultView : scrollParent;
 <<<<<<< HEAD
+<<<<<<< HEAD
     target.addEventListener(event, callback, { passive: true });
 =======
     target.addEventListener(event, callback, {
       passive: true
     });
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    target.addEventListener(event, callback, {
+      passive: true
+    });
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
     if (!isBody) {
       attachToScrollParents(getScrollParent(target.parentNode), event, callback, scrollParents);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     scrollParents.push(target);
   }
@@ -7224,12 +8022,18 @@
     scrollParents.push(target);
   }
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+    scrollParents.push(target);
+  }
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Setup needed event listeners used to update the popper position
    * @method
    * @memberof Popper.Utils
    * @private
    */
+<<<<<<< HEAD
 <<<<<<< HEAD
   function setupEventListeners(reference, options, state, updateBound) {
     // Resize event listener on window
@@ -7238,6 +8042,8 @@
 
     // Scroll event listener on scroll parents
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function setupEventListeners(reference, options, state, updateBound) {
@@ -7247,11 +8053,15 @@
       passive: true
     }); // Scroll event listener on scroll parents
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var scrollElement = getScrollParent(reference);
     attachToScrollParents(scrollElement, 'scroll', state.updateBound, state.scrollParents);
     state.scrollElement = scrollElement;
     state.eventsEnabled = true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     return state;
@@ -7261,6 +8071,10 @@
     return state;
   }
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    return state;
+  }
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * It will add resize/scroll events and start recalculating
    * position of the popper element when they are triggered.
@@ -7268,25 +8082,34 @@
    * @memberof Popper
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function enableEventListeners() {
     if (!this.state.eventsEnabled) {
       this.state = setupEventListeners(this.reference, this.options, this.state, this.scheduleUpdate);
     }
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Remove event listeners used to update the popper position
    * @method
    * @memberof Popper.Utils
    * @private
    */
+<<<<<<< HEAD
 <<<<<<< HEAD
   function removeEventListeners(reference, state) {
     // Remove resize event listener on window
@@ -7299,6 +8122,8 @@
 
     // Reset state
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function removeEventListeners(reference, state) {
@@ -7309,7 +8134,10 @@
       target.removeEventListener('scroll', state.updateBound);
     }); // Reset state
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     state.updateBound = null;
     state.scrollParents = [];
     state.scrollElement = null;
@@ -7317,9 +8145,12 @@
     return state;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * It will remove resize/scroll events and won't recalculate popper position
    * when they are triggered. It also won't trigger `onUpdate` callback anymore,
@@ -7328,10 +8159,15 @@
    * @memberof Popper
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function disableEventListeners() {
     if (this.state.eventsEnabled) {
       cancelAnimationFrame(this.scheduleUpdate);
@@ -7339,9 +8175,12 @@
     }
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Tells if a given input is a number
    * @method
@@ -7350,17 +8189,23 @@
    * @return {Boolean}
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function isNumeric(n) {
     return n !== '' && !isNaN(parseFloat(n)) && isFinite(n);
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function isNumeric(n) {
     return n !== '' && !isNaN(parseFloat(n)) && isFinite(n);
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Set the style to the given popper
    * @method
@@ -7369,6 +8214,7 @@
    * @argument {Object} styles
    * Object with a list of properties and values which will be applied to the element
    */
+<<<<<<< HEAD
 <<<<<<< HEAD
   function setStyles(element, styles) {
     Object.keys(styles).forEach(function (prop) {
@@ -7382,6 +8228,8 @@
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function setStyles(element, styles) {
@@ -7395,7 +8243,10 @@
       element.style[prop] = styles[prop] + unit;
     });
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Set the attributes to the given popper
    * @method
@@ -7405,17 +8256,23 @@
    * Object with a list of properties and values which will be applied to the element
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function setAttributes(element, attributes) {
     Object.keys(attributes).forEach(function (prop) {
       var value = attributes[prop];
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function setAttributes(element, attributes) {
     Object.keys(attributes).forEach(function (prop) {
       var value = attributes[prop];
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (value !== false) {
         element.setAttribute(prop, attributes[prop]);
       } else {
@@ -7424,9 +8281,12 @@
     });
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * @function
    * @memberof Modifiers
@@ -7437,15 +8297,21 @@
    * @returns {Object} The same data object
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function applyStyle(data) {
     // any property present in `data.styles` will be applied to the popper,
     // in this way we can make the 3rd party modifiers add custom styles to it
     // Be aware, modifiers could override the properties defined in the previous
     // lines of this modifier!
+<<<<<<< HEAD
 <<<<<<< HEAD
     setStyles(data.instance.popper, data.styles);
 
@@ -7455,12 +8321,17 @@
 
     // if arrowElement is defined and arrowStyles has some properties
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     setStyles(data.instance.popper, data.styles); // any property present in `data.attributes` will be applied to the popper,
     // they will be set as HTML attributes of the element
 
     setAttributes(data.instance.popper, data.attributes); // if arrowElement is defined and arrowStyles has some properties
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (data.arrowElement && Object.keys(data.arrowStyles).length) {
       setStyles(data.arrowElement, data.arrowStyles);
     }
@@ -7468,9 +8339,12 @@
     return data;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Set the x-placement attribute before everything else because it could be used
    * to add margins to the popper margins needs to be calculated to get the
@@ -7481,6 +8355,7 @@
    * @param {HTMLElement} popper - The HTML element used as popper
    * @param {Object} options - Popper.js options
    */
+<<<<<<< HEAD
 <<<<<<< HEAD
   function applyStyleOnLoad(reference, popper, options, modifierOptions, state) {
     // compute reference element offsets
@@ -7501,6 +8376,8 @@
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function applyStyleOnLoad(reference, popper, options, modifierOptions, state) {
@@ -7518,7 +8395,10 @@
     });
     return options;
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * @function
    * @memberof Popper.Utils
@@ -7539,10 +8419,15 @@
    * Only horizontal placement and left/right values need to be considered.
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function getRoundedOffsets(data, shouldRound) {
     var _data$offsets = data.offsets,
         popper = _data$offsets.popper,
@@ -7557,13 +8442,17 @@
     var referenceWidth = round(reference.width);
     var popperWidth = round(popper.width);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var isVertical = ['left', 'right'].indexOf(data.placement) !== -1;
     var isVariation = data.placement.indexOf('-') !== -1;
     var sameWidthParity = referenceWidth % 2 === popperWidth % 2;
     var bothOddWidth = referenceWidth % 2 === 1 && popperWidth % 2 === 1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     var horizontalToInteger = !shouldRound ? noRound : isVertical || isVariation || sameWidthParity ? round : floor;
@@ -7573,6 +8462,10 @@
     var horizontalToInteger = !shouldRound ? noRound : isVertical || isVariation || sameWidthParity ? round : floor;
     var verticalToInteger = !shouldRound ? noRound : round;
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    var horizontalToInteger = !shouldRound ? noRound : isVertical || isVariation || sameWidthParity ? round : floor;
+    var verticalToInteger = !shouldRound ? noRound : round;
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     return {
       left: horizontalToInteger(bothOddWidth && !isVariation && shouldRound ? popper.left - 1 : popper.left),
       top: verticalToInteger(popper.top),
@@ -7583,9 +8476,12 @@
 
   var isFirefox = isBrowser && /Firefox/i.test(navigator.userAgent);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * @function
    * @memberof Modifiers
@@ -7594,6 +8490,7 @@
    * @returns {Object} The data object, properly modified
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function computeStyle(data, options) {
     var x = options.x,
         y = options.y;
@@ -7601,16 +8498,22 @@
 
     // Remove this legacy support in Popper.js v2
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   function computeStyle(data, options) {
     var x = options.x,
         y = options.y;
     var popper = data.offsets.popper; // Remove this legacy support in Popper.js v2
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
     var legacyGpuAccelerationOption = find(data.instance.modifiers, function (modifier) {
       return modifier.name === 'applyStyle';
     }).gpuAcceleration;
+<<<<<<< HEAD
 <<<<<<< HEAD
     if (legacyGpuAccelerationOption !== undefined) {
       console.warn('WARNING: `gpuAcceleration` option moved to `computeStyle` modifier and will not be supported in future versions of Popper.js!');
@@ -7637,6 +8540,8 @@
 
     // now, let's make a step back and look at this code closely (wtf?)
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
     if (legacyGpuAccelerationOption !== undefined) {
       console.warn('WARNING: `gpuAcceleration` option moved to `computeStyle` modifier and will not be supported in future versions of Popper.js!');
@@ -7656,7 +8561,10 @@
     // automatically use the supported prefixed version if needed
 
     var prefixedProperty = getSupportedPropertyName('transform'); // now, let's make a step back and look at this code closely (wtf?)
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     // If the content of the popper grows once it's been positioned, it
     // may happen that the popper gets misplaced because of the new content
     // overflowing its reference element
@@ -7666,14 +8574,20 @@
     // `x` to `top` to make the popper grow towards its top instead of
     // its bottom.
 <<<<<<< HEAD
+<<<<<<< HEAD
     var left = void 0,
         top = void 0;
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
     var left = void 0,
         top = void 0;
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (sideA === 'bottom') {
       // when offsetParent is <html> the positioning is relative to the bottom of the screen (excluding the scrollbar)
       // and not the bottom of the html element
@@ -7686,9 +8600,13 @@
       top = offsets.top;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (sideB === 'right') {
       if (offsetParent.nodeName === 'HTML') {
         left = -offsetParent.clientWidth + offsets.right;
@@ -7699,9 +8617,13 @@
       left = offsets.left;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (gpuAcceleration && prefixedProperty) {
       styles[prefixedProperty] = 'translate3d(' + left + 'px, ' + top + 'px, 0)';
       styles[sideA] = 0;
@@ -7714,6 +8636,7 @@
       styles[sideA] = top * invertTop;
       styles[sideB] = left * invertLeft;
       styles.willChange = sideA + ', ' + sideB;
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -7731,6 +8654,8 @@
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // Attributes
 
 
@@ -7743,7 +8668,10 @@
     data.arrowStyles = _extends$1({}, data.offsets.arrow, data.arrowStyles);
     return data;
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Helper used to know if the given modifier depends from another one.<br />
    * It checks if the needed modifier is listed and enabled.
@@ -7755,19 +8683,27 @@
    * @returns {Boolean}
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function isModifierRequired(modifiers, requestingName, requestedName) {
     var requesting = find(modifiers, function (_ref) {
       var name = _ref.name;
       return name === requestingName;
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var isRequired = !!requesting && modifiers.some(function (modifier) {
       return modifier.name === requestedName && modifier.enabled && modifier.order < requesting.order;
     });
@@ -7775,6 +8711,7 @@
     if (!isRequired) {
       var _requesting = '`' + requestingName + '`';
 <<<<<<< HEAD
+<<<<<<< HEAD
       var requested = '`' + requestedName + '`';
       console.warn(requested + ' modifier is required by ' + _requesting + ' modifier in order to work, be sure to include it before ' + _requesting + '!');
     }
@@ -7782,6 +8719,8 @@
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       var requested = '`' + requestedName + '`';
       console.warn(requested + ' modifier is required by ' + _requesting + ' modifier in order to work, be sure to include it before ' + _requesting + '!');
@@ -7789,7 +8728,10 @@
 
     return isRequired;
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * @function
    * @memberof Modifiers
@@ -7798,22 +8740,29 @@
    * @returns {Object} The data object, properly modified
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function arrow(data, options) {
     var _data$offsets$arrow;
 
     // arrow depends on keepTogether in order to work
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function arrow(data, options) {
     var _data$offsets$arrow; // arrow depends on keepTogether in order to work
 
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (!isModifierRequired(data.instance.modifiers, 'arrow', 'keepTogether')) {
       return data;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     var arrowElement = options.element;
 
@@ -7895,6 +8844,35 @@
   }
 
 =======
+=======
+    var arrowElement = options.element; // if arrowElement is a string, suppose it's a CSS selector
+
+    if (typeof arrowElement === 'string') {
+      arrowElement = data.instance.popper.querySelector(arrowElement); // if arrowElement is not found, don't run the modifier
+
+      if (!arrowElement) {
+        return data;
+      }
+    } else {
+      // if the arrowElement isn't a query selector we must check that the
+      // provided DOM node is child of its popper node
+      if (!data.instance.popper.contains(arrowElement)) {
+        console.warn('WARNING: `arrow.element` must be child of its popper element!');
+        return data;
+      }
+    }
+
+    var placement = data.placement.split('-')[0];
+    var _data$offsets = data.offsets,
+        popper = _data$offsets.popper,
+        reference = _data$offsets.reference;
+    var isVertical = ['left', 'right'].indexOf(placement) !== -1;
+    var len = isVertical ? 'height' : 'width';
+    var sideCapitalized = isVertical ? 'Top' : 'Left';
+    var side = sideCapitalized.toLowerCase();
+    var altSide = isVertical ? 'left' : 'top';
+    var opSide = isVertical ? 'bottom' : 'right';
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var arrowElementSize = getOuterSizes(arrowElement)[len]; //
     // extends keepTogether behavior making sure the popper and its
     // reference have enough pixels in conjunction
@@ -7925,7 +8903,10 @@
     data.offsets.arrow = (_data$offsets$arrow = {}, defineProperty(_data$offsets$arrow, side, Math.round(sideValue)), defineProperty(_data$offsets$arrow, altSide, ''), _data$offsets$arrow);
     return data;
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Get the opposite placement variation of the given one
    * @method
@@ -7934,16 +8915,22 @@
    * @returns {String} flipped placement variation
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function getOppositeVariation(variation) {
     if (variation === 'end') {
       return 'start';
     } else if (variation === 'start') {
       return 'end';
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     return variation;
   }
@@ -7953,6 +8940,11 @@
     return variation;
   }
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+    return variation;
+  }
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * List of accepted placements to use as values of the `placement` option.<br />
    * Valid placements are:
@@ -7985,18 +8977,24 @@
    * @memberof Popper
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   var placements = ['auto-start', 'auto', 'auto-end', 'top-start', 'top', 'top-end', 'right-start', 'right', 'right-end', 'bottom-end', 'bottom', 'bottom-start', 'left-end', 'left', 'left-start'];
 
   // Get rid of `auto` `auto-start` and `auto-end`
   var validPlacements = placements.slice(3);
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   var placements = ['auto-start', 'auto', 'auto-end', 'top-start', 'top', 'top-end', 'right-start', 'right', 'right-end', 'bottom-end', 'bottom', 'bottom-start', 'left-end', 'left', 'left-start']; // Get rid of `auto` `auto-start` and `auto-end`
 
   var validPlacements = placements.slice(3);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Given an initial placement, returns all the subsequent placements
    * clockwise (or counter-clockwise).
@@ -8008,6 +9006,7 @@
    * @returns {Array} placements including their variations
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function clockwise(placement) {
     var counter = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
 
@@ -8016,6 +9015,11 @@
   function clockwise(placement) {
     var counter = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+  function clockwise(placement) {
+    var counter = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var index = validPlacements.indexOf(placement);
     var arr = validPlacements.slice(index + 1).concat(validPlacements.slice(0, index));
     return counter ? arr.reverse() : arr;
@@ -8027,9 +9031,12 @@
     COUNTERCLOCKWISE: 'counterclockwise'
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * @function
    * @memberof Modifiers
@@ -8038,9 +9045,13 @@
    * @returns {Object} The data object, properly modified
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function flip(data, options) {
     // if `inner` modifier is enabled, we can't use the `flip` modifier
     if (isModifierEnabled(data.instance.modifiers, 'inner')) {
@@ -8054,6 +9065,7 @@
 
     var boundaries = getBoundaries(data.instance.popper, data.instance.reference, options.padding, options.boundariesElement, data.positionFixed);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     var placement = data.placement.split('-')[0];
     var placementOpposite = getOppositePlacement(placement);
@@ -8064,12 +9076,18 @@
     var placementOpposite = getOppositePlacement(placement);
     var variation = data.placement.split('-')[1] || '';
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    var placement = data.placement.split('-')[0];
+    var placementOpposite = getOppositePlacement(placement);
+    var variation = data.placement.split('-')[1] || '';
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var flipOrder = [];
 
     switch (options.behavior) {
       case BEHAVIORS.FLIP:
         flipOrder = [placement, placementOpposite];
         break;
+<<<<<<< HEAD
 <<<<<<< HEAD
       case BEHAVIORS.CLOCKWISE:
         flipOrder = clockwise(placement);
@@ -8078,6 +9096,8 @@
         flipOrder = clockwise(placement, true);
         break;
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       case BEHAVIORS.CLOCKWISE:
         flipOrder = clockwise(placement);
@@ -8087,7 +9107,10 @@
         flipOrder = clockwise(placement, true);
         break;
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       default:
         flipOrder = options.behavior;
     }
@@ -8100,6 +9123,7 @@
       placement = data.placement.split('-')[0];
       placementOpposite = getOppositePlacement(placement);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
       var popperOffsets = data.offsets.popper;
       var refOffsets = data.offsets.reference;
@@ -8109,16 +9133,22 @@
       var overlapsRef = placement === 'left' && floor(popperOffsets.right) > floor(refOffsets.left) || placement === 'right' && floor(popperOffsets.left) < floor(refOffsets.right) || placement === 'top' && floor(popperOffsets.bottom) > floor(refOffsets.top) || placement === 'bottom' && floor(popperOffsets.top) < floor(refOffsets.bottom);
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       var popperOffsets = data.offsets.popper;
       var refOffsets = data.offsets.reference; // using floor because the reference offsets may contain decimals we are not going to consider here
 
       var floor = Math.floor;
       var overlapsRef = placement === 'left' && floor(popperOffsets.right) > floor(refOffsets.left) || placement === 'right' && floor(popperOffsets.left) < floor(refOffsets.right) || placement === 'top' && floor(popperOffsets.bottom) > floor(refOffsets.top) || placement === 'bottom' && floor(popperOffsets.top) < floor(refOffsets.bottom);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       var overflowsLeft = floor(popperOffsets.left) < floor(boundaries.left);
       var overflowsRight = floor(popperOffsets.right) > floor(boundaries.right);
       var overflowsTop = floor(popperOffsets.top) < floor(boundaries.top);
       var overflowsBottom = floor(popperOffsets.bottom) > floor(boundaries.bottom);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
       var overflowsBoundaries = placement === 'left' && overflowsLeft || placement === 'right' && overflowsRight || placement === 'top' && overflowsTop || placement === 'bottom' && overflowsBottom;
@@ -8133,6 +9163,8 @@
       var flippedVariationByContent = !!options.flipVariationsByContent && (isVertical && variation === 'start' && overflowsRight || isVertical && variation === 'end' && overflowsLeft || !isVertical && variation === 'start' && overflowsBottom || !isVertical && variation === 'end' && overflowsTop);
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       var overflowsBoundaries = placement === 'left' && overflowsLeft || placement === 'right' && overflowsRight || placement === 'top' && overflowsTop || placement === 'bottom' && overflowsBottom; // flip the variation if required
 
       var isVertical = ['top', 'bottom'].indexOf(placement) !== -1; // flips variation if reference element overflows boundaries
@@ -8140,7 +9172,10 @@
       var flippedVariationByRef = !!options.flipVariations && (isVertical && variation === 'start' && overflowsLeft || isVertical && variation === 'end' && overflowsRight || !isVertical && variation === 'start' && overflowsTop || !isVertical && variation === 'end' && overflowsBottom); // flips variation if popper content overflows boundaries
 
       var flippedVariationByContent = !!options.flipVariationsByContent && (isVertical && variation === 'start' && overflowsRight || isVertical && variation === 'end' && overflowsLeft || !isVertical && variation === 'start' && overflowsBottom || !isVertical && variation === 'end' && overflowsTop);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       var flippedVariation = flippedVariationByRef || flippedVariationByContent;
 
       if (overlapsRef || overflowsBoundaries || flippedVariation) {
@@ -8156,6 +9191,7 @@
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         data.placement = placement + (variation ? '-' + variation : '');
 
         // this object contains `position`, we want to preserve it along with
@@ -8163,20 +9199,28 @@
         data.offsets.popper = _extends({}, data.offsets.popper, getPopperOffsets(data.instance.popper, data.offsets.reference, data.placement));
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         data.placement = placement + (variation ? '-' + variation : ''); // this object contains `position`, we want to preserve it along with
         // any additional property we may add in the future
 
         data.offsets.popper = _extends$1({}, data.offsets.popper, getPopperOffsets(data.instance.popper, data.offsets.reference, data.placement));
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         data = runModifiers(data.instance.modifiers, data, 'flip');
       }
     });
     return data;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * @function
    * @memberof Modifiers
@@ -8185,18 +9229,26 @@
    * @returns {Object} The data object, properly modified
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function keepTogether(data) {
     var _data$offsets = data.offsets,
         popper = _data$offsets.popper,
         reference = _data$offsets.reference;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var placement = data.placement.split('-')[0];
     var floor = Math.floor;
     var isVertical = ['top', 'bottom'].indexOf(placement) !== -1;
@@ -8208,9 +9260,13 @@
       data.offsets.popper[opSide] = floor(reference[opSide]) - popper[measurement];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (popper[opSide] > floor(reference[side])) {
       data.offsets.popper[opSide] = floor(reference[side]);
     }
@@ -8218,9 +9274,12 @@
     return data;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Converts a string containing value + unit into a px value number
    * @function
@@ -8234,14 +9293,20 @@
    * Value in pixels, or original string if no values were extracted
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function toValue(str, measurement, popperOffsets, referenceOffsets) {
     // separate value from unit
     var split = str.match(/((?:\-|\+)?\d*\.?\d*)(.*)/);
     var value = +split[1];
+<<<<<<< HEAD
 <<<<<<< HEAD
     var unit = split[2];
 
@@ -8250,6 +9315,10 @@
     var unit = split[2]; // If it's not a number it's an operator, I guess
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    var unit = split[2]; // If it's not a number it's an operator, I guess
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (!value) {
       return str;
     }
@@ -8257,17 +9326,25 @@
     if (unit.indexOf('%') === 0) {
       var element = void 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       switch (unit) {
         case '%p':
           element = popperOffsets;
           break;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         case '%':
         case '%r':
         default:
@@ -8280,18 +9357,26 @@
       // if is a vh or vw, we calculate the size based on the viewport
       var size = void 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (unit === 'vh') {
         size = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
       } else {
         size = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
       }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       return size / 100 * value;
     } else {
       // if is an explicit pixel unit, we get rid of the unit and keep the value
@@ -8300,9 +9385,12 @@
     }
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Parse an `offset` string to extrapolate `x` and `y` numeric offsets.
    * @function
@@ -8314,6 +9402,7 @@
    * @argument {String} basePlacement
    * @returns {Array} a two cells array with x and y offsets in numbers
    */
+<<<<<<< HEAD
 <<<<<<< HEAD
   function parseOffset(offset, popperOffsets, referenceOffsets, basePlacement) {
     var offsets = [0, 0];
@@ -8332,6 +9421,8 @@
     // Detect if the offset string contains a pair of values or a single one
     // they could be separated by comma or space
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function parseOffset(offset, popperOffsets, referenceOffsets, basePlacement) {
@@ -8347,13 +9438,17 @@
     }); // Detect if the offset string contains a pair of values or a single one
     // they could be separated by comma or space
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var divider = fragments.indexOf(find(fragments, function (frag) {
       return frag.search(/,|\s/) !== -1;
     }));
 
     if (fragments[divider] && fragments[divider].indexOf(',') === -1) {
       console.warn('Offsets separated by white space(s) are deprecated, use a comma (,) instead.');
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -8364,6 +9459,8 @@
 
     // Convert the values with units to absolute pixels to allow our computations
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // If divider is found, we divide the list of values and operands to divide
     // them by ofset X and Y.
 
@@ -8371,17 +9468,24 @@
     var splitRegex = /\s*,\s*|\s+/;
     var ops = divider !== -1 ? [fragments.slice(0, divider).concat([fragments[divider].split(splitRegex)[0]]), [fragments[divider].split(splitRegex)[1]].concat(fragments.slice(divider + 1))] : [fragments]; // Convert the values with units to absolute pixels to allow our computations
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     ops = ops.map(function (op, index) {
       // Most of the units rely on the orientation of the popper
       var measurement = (index === 1 ? !useHeight : useHeight) ? 'height' : 'width';
       var mergeWithPrevious = false;
+<<<<<<< HEAD
 <<<<<<< HEAD
       return op
       // This aggregates any `+` or `-` sign that aren't considered operators
 =======
       return op // This aggregates any `+` or `-` sign that aren't considered operators
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+      return op // This aggregates any `+` or `-` sign that aren't considered operators
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       // e.g.: 10 + +5 => [10, +, +5]
       .reduce(function (a, b) {
         if (a[a.length - 1] === '' && ['+', '-'].indexOf(b) !== -1) {
@@ -8396,6 +9500,7 @@
           return a.concat(b);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
       }, [])
       // Here we convert the string values into number values (in px)
       .map(function (str) {
@@ -8405,13 +9510,18 @@
 
     // Loop trough the offsets arrays and execute the operations
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }, []) // Here we convert the string values into number values (in px)
       .map(function (str) {
         return toValue(str, measurement, popperOffsets, referenceOffsets);
       });
     }); // Loop trough the offsets arrays and execute the operations
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     ops.forEach(function (op, index) {
       op.forEach(function (frag, index2) {
         if (isNumeric(frag)) {
@@ -8422,9 +9532,12 @@
     return offsets;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * @function
    * @memberof Modifiers
@@ -8435,16 +9548,22 @@
    * @returns {Object} The data object, properly modified
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function offset(data, _ref) {
     var offset = _ref.offset;
     var placement = data.placement,
         _data$offsets = data.offsets,
         popper = _data$offsets.popper,
         reference = _data$offsets.reference;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     var basePlacement = placement.split('-')[0];
@@ -8455,6 +9574,11 @@
     var offsets = void 0;
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    var basePlacement = placement.split('-')[0];
+    var offsets = void 0;
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (isNumeric(+offset)) {
       offsets = [+offset, 0];
     } else {
@@ -8479,9 +9603,12 @@
     return data;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * @function
    * @memberof Modifiers
@@ -8489,6 +9616,7 @@
    * @argument {Object} options - Modifiers configuration and options
    * @returns {Object} The data object, properly modified
    */
+<<<<<<< HEAD
 <<<<<<< HEAD
   function preventOverflow(data, options) {
     var boundariesElement = options.boundariesElement || getOffsetParent(data.instance.popper);
@@ -8533,6 +9661,8 @@
           value = Math.max(popper[placement], boundaries[placement]);
         }
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function preventOverflow(data, options) {
@@ -8573,12 +9703,16 @@
           value = Math.max(popper[placement], boundaries[placement]);
         }
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         return defineProperty({}, placement, value);
       },
       secondary: function secondary(placement) {
         var mainSide = placement === 'right' ? 'left' : 'top';
         var value = popper[mainSide];
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (popper[placement] > boundaries[placement] && !options.escapeWithReference) {
           value = Math.min(popper[mainSide], boundaries[placement] - (placement === 'right' ? popper.width : popper.height));
@@ -8598,6 +9732,8 @@
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
         if (popper[placement] > boundaries[placement] && !options.escapeWithReference) {
           value = Math.min(popper[mainSide], boundaries[placement] - (placement === 'right' ? popper.width : popper.height));
@@ -8613,7 +9749,10 @@
     data.offsets.popper = popper;
     return data;
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * @function
    * @memberof Modifiers
@@ -8622,6 +9761,7 @@
    * @returns {Object} The data object, properly modified
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
   function shift(data) {
     var placement = data.placement;
     var basePlacement = placement.split('-')[0];
@@ -8629,6 +9769,8 @@
 
     // if shift shiftvariation is specified, run the modifier
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
 
   function shift(data) {
@@ -8636,11 +9778,15 @@
     var basePlacement = placement.split('-')[0];
     var shiftvariation = placement.split('-')[1]; // if shift shiftvariation is specified, run the modifier
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     if (shiftvariation) {
       var _data$offsets = data.offsets,
           reference = _data$offsets.reference,
           popper = _data$offsets.popper;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
       var isVertical = ['bottom', 'top'].indexOf(basePlacement) !== -1;
@@ -8652,24 +9798,36 @@
       var side = isVertical ? 'left' : 'top';
       var measurement = isVertical ? 'width' : 'height';
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+      var isVertical = ['bottom', 'top'].indexOf(basePlacement) !== -1;
+      var side = isVertical ? 'left' : 'top';
+      var measurement = isVertical ? 'width' : 'height';
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       var shiftOffsets = {
         start: defineProperty({}, side, reference[side]),
         end: defineProperty({}, side, reference[side] + reference[measurement] - popper[measurement])
       };
+<<<<<<< HEAD
 <<<<<<< HEAD
 
       data.offsets.popper = _extends({}, popper, shiftOffsets[shiftvariation]);
 =======
       data.offsets.popper = _extends$1({}, popper, shiftOffsets[shiftvariation]);
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+      data.offsets.popper = _extends$1({}, popper, shiftOffsets[shiftvariation]);
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     }
 
     return data;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * @function
    * @memberof Modifiers
@@ -8678,10 +9836,15 @@
    * @returns {Object} The data object, properly modified
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function hide(data) {
     if (!isModifierRequired(data.instance.modifiers, 'hide', 'preventOverflow')) {
       return data;
@@ -8713,9 +9876,12 @@
     return data;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * @function
    * @memberof Modifiers
@@ -8724,16 +9890,22 @@
    * @returns {Object} The data object, properly modified
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   function inner(data) {
     var placement = data.placement;
     var basePlacement = placement.split('-')[0];
     var _data$offsets = data.offsets,
         popper = _data$offsets.popper,
         reference = _data$offsets.reference;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     var isHoriz = ['left', 'right'].indexOf(basePlacement) !== -1;
@@ -8749,6 +9921,8 @@
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var isHoriz = ['left', 'right'].indexOf(basePlacement) !== -1;
     var subtractLength = ['top', 'left'].indexOf(basePlacement) === -1;
     popper[isHoriz ? 'left' : 'top'] = reference[basePlacement] - (subtractLength ? popper[isHoriz ? 'width' : 'height'] : 0);
@@ -8756,7 +9930,10 @@
     data.offsets.popper = getClientRect(popper);
     return data;
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * Modifier function, each modifier can have a function of this type assigned
    * to its `fn` property.<br />
@@ -8779,10 +9956,15 @@
    * @namespace modifiers
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var modifiers = {
     /**
      * Modifier used to shift the popper on the start or end of its reference
@@ -8796,14 +9978,20 @@
       /** @prop {number} order=100 - Index used to define the order of execution */
       order: 100,
 <<<<<<< HEAD
+<<<<<<< HEAD
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /** @prop {ModifierFn} */
       fn: shift
     },
@@ -8850,11 +10038,14 @@
       /** @prop {number} order=200 - Index used to define the order of execution */
       order: 200,
 <<<<<<< HEAD
+<<<<<<< HEAD
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
       /** @prop {ModifierFn} */
       fn: offset,
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
@@ -8862,7 +10053,10 @@
       /** @prop {ModifierFn} */
       fn: offset,
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /** @prop {Number|String} offset=0
        * The offset value as described in the modifier description
        */
@@ -8890,11 +10084,14 @@
       /** @prop {number} order=300 - Index used to define the order of execution */
       order: 300,
 <<<<<<< HEAD
+<<<<<<< HEAD
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
       /** @prop {ModifierFn} */
       fn: preventOverflow,
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
@@ -8902,7 +10099,10 @@
       /** @prop {ModifierFn} */
       fn: preventOverflow,
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /**
        * @prop {Array} [priority=['left','right','top','bottom']]
        * Popper will try to prevent overflow following these priorities by default,
@@ -8910,9 +10110,13 @@
        */
       priority: ['left', 'right', 'top', 'bottom'],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /**
        * @prop {number} padding=5
        * Amount of pixel used to define a minimum distance between the boundaries
@@ -8921,9 +10125,13 @@
        */
       padding: 5,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /**
        * @prop {String|HTMLElement} boundariesElement='scrollParent'
        * Boundaries used by the modifier. Can be `scrollParent`, `window`,
@@ -8945,14 +10153,20 @@
       /** @prop {number} order=400 - Index used to define the order of execution */
       order: 400,
 <<<<<<< HEAD
+<<<<<<< HEAD
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /** @prop {ModifierFn} */
       fn: keepTogether
     },
@@ -8971,11 +10185,14 @@
       /** @prop {number} order=500 - Index used to define the order of execution */
       order: 500,
 <<<<<<< HEAD
+<<<<<<< HEAD
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
       /** @prop {ModifierFn} */
       fn: arrow,
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
@@ -8983,7 +10200,10 @@
       /** @prop {ModifierFn} */
       fn: arrow,
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /** @prop {String|HTMLElement} element='[x-arrow]' - Selector or node used as arrow */
       element: '[x-arrow]'
     },
@@ -9003,11 +10223,14 @@
       /** @prop {number} order=600 - Index used to define the order of execution */
       order: 600,
 <<<<<<< HEAD
+<<<<<<< HEAD
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
       /** @prop {ModifierFn} */
       fn: flip,
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
@@ -9015,7 +10238,10 @@
       /** @prop {ModifierFn} */
       fn: flip,
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /**
        * @prop {String|Array} behavior='flip'
        * The behavior used to change the popper's placement. It can be one of
@@ -9024,18 +10250,26 @@
        */
       behavior: 'flip',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /**
        * @prop {number} padding=5
        * The popper will flip if it hits the edges of the `boundariesElement`
        */
       padding: 5,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /**
        * @prop {String|HTMLElement} boundariesElement='viewport'
        * The element which will define the boundaries of the popper position.
@@ -9044,9 +10278,13 @@
        */
       boundariesElement: 'viewport',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /**
        * @prop {Boolean} flipVariations=false
        * The popper will switch placement variation between `-start` and `-end` when
@@ -9056,9 +10294,13 @@
        */
       flipVariations: false,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /**
        * @prop {Boolean} flipVariationsByContent=false
        * The popper will switch placement variation between `-start` and `-end` when
@@ -9080,14 +10322,20 @@
       /** @prop {number} order=700 - Index used to define the order of execution */
       order: 700,
 <<<<<<< HEAD
+<<<<<<< HEAD
       /** @prop {Boolean} enabled=false - Whether the modifier is enabled or not */
       enabled: false,
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       /** @prop {Boolean} enabled=false - Whether the modifier is enabled or not */
       enabled: false,
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /** @prop {ModifierFn} */
       fn: inner
     },
@@ -9106,14 +10354,20 @@
       /** @prop {number} order=800 - Index used to define the order of execution */
       order: 800,
 <<<<<<< HEAD
+<<<<<<< HEAD
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /** @prop {ModifierFn} */
       fn: hide
     },
@@ -9137,11 +10391,14 @@
       /** @prop {number} order=850 - Index used to define the order of execution */
       order: 850,
 <<<<<<< HEAD
+<<<<<<< HEAD
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
       /** @prop {ModifierFn} */
       fn: computeStyle,
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
@@ -9149,7 +10406,10 @@
       /** @prop {ModifierFn} */
       fn: computeStyle,
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /**
        * @prop {Boolean} gpuAcceleration=true
        * If true, it uses the CSS 3D transformation to position the popper.
@@ -9157,9 +10417,13 @@
        */
       gpuAcceleration: true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /**
        * @prop {string} [x='bottom']
        * Where to anchor the X axis (`bottom` or `top`). AKA X offset origin.
@@ -9167,9 +10431,13 @@
        */
       x: 'bottom',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /**
        * @prop {string} [x='left']
        * Where to anchor the Y axis (`left` or `right`). AKA Y offset origin.
@@ -9197,6 +10465,7 @@
       /** @prop {number} order=900 - Index used to define the order of execution */
       order: 900,
 <<<<<<< HEAD
+<<<<<<< HEAD
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
       /** @prop {ModifierFn} */
@@ -9204,6 +10473,8 @@
       /** @prop {Function} */
       onLoad: applyStyleOnLoad,
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       /** @prop {Boolean} enabled=true - Whether the modifier is enabled or not */
       enabled: true,
@@ -9214,7 +10485,10 @@
       /** @prop {Function} */
       onLoad: applyStyleOnLoad,
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /**
        * @deprecated since version 1.10.0, the property moved to `computeStyle` modifier
        * @prop {Boolean} gpuAcceleration=true
@@ -9225,9 +10499,12 @@
     }
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * The `dataObject` is an object containing all the information used by Popper.js.
    * This object is passed to modifiers and to the `onCreate` and `onUpdate` callbacks.
@@ -9264,9 +10541,13 @@
    * @memberof Popper
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var Defaults = {
     /**
      * Popper's placement.
@@ -9319,9 +10600,12 @@
     modifiers: modifiers
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * @callback onCreate
    * @param {dataObject} data
@@ -9332,6 +10616,7 @@
    * @param {dataObject} data
    */
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   // Utils
   // Methods
@@ -9340,6 +10625,11 @@
   // Methods
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+  // Utils
+  // Methods
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var Popper = function () {
     /**
      * Creates a new Popper.js instance.
@@ -9358,6 +10648,7 @@
       this.scheduleUpdate = function () {
         return requestAnimationFrame(_this.update);
 <<<<<<< HEAD
+<<<<<<< HEAD
       };
 
       // make update() debounced, so that it only runs at most once-per-tick
@@ -9368,6 +10659,8 @@
 
       // init state
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }; // make update() debounced, so that it only runs at most once-per-tick
 
 
@@ -9375,11 +10668,15 @@
 
       this.options = _extends$1({}, Popper.Defaults, options); // init state
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this.state = {
         isDestroyed: false,
         isCreated: false,
         scrollParents: []
+<<<<<<< HEAD
 <<<<<<< HEAD
       };
 
@@ -9409,6 +10706,8 @@
       // they could add new properties to their options configuration
       // BE AWARE: don't add options to `options.modifiers.name` but to `modifierOptions`!
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }; // get reference and popper elements (allow jQuery wrappers)
 
       this.reference = reference && reference.jquery ? reference[0] : reference;
@@ -9431,11 +10730,15 @@
       // they could add new properties to their options configuration
       // BE AWARE: don't add options to `options.modifiers.name` but to `modifierOptions`!
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this.modifiers.forEach(function (modifierOptions) {
         if (modifierOptions.enabled && isFunction(modifierOptions.onLoad)) {
           modifierOptions.onLoad(_this.reference, _this.popper, _this.options, modifierOptions, _this.state);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
       });
 
@@ -9444,12 +10747,17 @@
 
       var eventsEnabled = this.options.eventsEnabled;
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }); // fire the first update to position the popper in the right place
 
       this.update();
       var eventsEnabled = this.options.eventsEnabled;
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (eventsEnabled) {
         // setup event listeners, they will take care of update the position in specific situations
         this.enableEventListeners();
@@ -9457,12 +10765,16 @@
 
       this.state.eventsEnabled = eventsEnabled;
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 
     // We can't use class properties because they don't get listed in the
 =======
     } // We can't use class properties because they don't get listed in the
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    } // We can't use class properties because they don't get listed in the
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     // class prototype and break stuff like Sinon stubs
 
 
@@ -9487,9 +10799,12 @@
         return disableEventListeners.call(this);
       }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /**
        * Schedules an update. It will run on the next UI update available.
        * @method scheduleUpdate
@@ -9497,9 +10812,12 @@
        */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /**
        * Collection of utilities useful when writing custom modifiers.
        * Starting from version 1.7, this method is available only if you
@@ -9521,9 +10839,12 @@
     return Popper;
   }();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * The `referenceObject` is an object that provides an interface compatible with Popper.js
    * and lets you use it as replacement of a real DOM node.<br />
@@ -9540,6 +10861,7 @@
    * A function that returns a set of coordinates compatible with the native `getBoundingClientRect` method.
    * @property {number} data.clientWidth
    * An ES6 getter that will return the width of the virtual reference element.
+<<<<<<< HEAD
    * @property {number} data.clientHeight
    * An ES6 getter that will return the height of the virtual reference element.
    */
@@ -9561,12 +10883,23 @@
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+   * @property {number} data.clientHeight
+   * An ES6 getter that will return the height of the virtual reference element.
+   */
+
+
+  Popper.Utils = (typeof window !== 'undefined' ? window : global).PopperUtils;
+  Popper.placements = placements;
+  Popper.Defaults = Defaults;
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Constants
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   const NAME$6 = 'dropdown';
   const VERSION$6 = '4.6.0';
@@ -9614,6 +10947,8 @@
 
   const Default$5 = {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var NAME$4 = 'dropdown';
   var VERSION$4 = '4.6.0';
   var DATA_KEY$4 = 'bs.dropdown';
@@ -9660,7 +10995,10 @@
   var PLACEMENT_RIGHT = 'right-start';
   var PLACEMENT_LEFT = 'left-start';
   var Default$2 = {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     offset: 0,
     flip: true,
     boundary: 'scrollParent',
@@ -9669,11 +11007,15 @@
     popperConfig: null
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   const DefaultType$5 = {
 =======
   var DefaultType$2 = {
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+  var DefaultType$2 = {
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     offset: '(number|string|function)',
     flip: 'boolean',
     boundary: '(string|element)',
@@ -9682,9 +11024,12 @@
     popperConfig: '(null|object)'
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Class Definition
@@ -9692,12 +11037,17 @@
    */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   class Dropdown {
     constructor(element, config) {
 =======
   var Dropdown = /*#__PURE__*/function () {
     function Dropdown(element, config) {
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+  var Dropdown = /*#__PURE__*/function () {
+    function Dropdown(element, config) {
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this._element = element;
       this._popper = null;
       this._config = this._getConfig(config);
@@ -9705,6 +11055,7 @@
       this._inNavbar = this._detectNavbar();
 
       this._addEventListeners();
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -9731,6 +11082,8 @@
 
       const isActive = $__default['default'](this._menu).hasClass(CLASS_NAME_SHOW$5);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // Getters
 
 
@@ -9742,11 +11095,15 @@
       }
 
       var isActive = $__default['default'](this._menu).hasClass(CLASS_NAME_SHOW$2);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       Dropdown._clearMenus();
 
       if (isActive) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return
       }
@@ -9765,6 +11122,8 @@
       const showEvent = $__default['default'].Event(EVENT_SHOW$3, relatedTarget);
       const parent = Dropdown._getParentFromElement(this._element);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         return;
       }
 
@@ -9786,27 +11145,37 @@
       var showEvent = $__default['default'].Event(EVENT_SHOW$1, relatedTarget);
 
       var parent = Dropdown._getParentFromElement(this._element);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       $__default['default'](parent).trigger(showEvent);
 
       if (showEvent.isDefaultPrevented()) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return
       }
 
       // Totally disable Popper for Dropdowns in Navbar
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         return;
       } // Totally disable Popper for Dropdowns in Navbar
 
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (!this._inNavbar && usePopper) {
         /**
          * Check for Popper dependency
          * Popper - https://popper.js.org
          */
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (typeof Popper$1 === 'undefined') {
           throw new TypeError('Bootstrap\'s dropdowns require Popper (https://popper.js.org)')
@@ -9814,16 +11183,22 @@
 
         let referenceElement = this._element;
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         if (typeof Popper === 'undefined') {
           throw new TypeError('Bootstrap\'s dropdowns require Popper (https://popper.js.org)');
         }
 
         var referenceElement = this._element;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
         if (this._config.reference === 'parent') {
           referenceElement = parent;
         } else if (Util.isElement(this._config.reference)) {
+<<<<<<< HEAD
 <<<<<<< HEAD
           referenceElement = this._config.reference;
 
@@ -9837,6 +11212,8 @@
         // to allow the menu to "escape" the scroll parent's boundaries
         // https://github.com/twbs/bootstrap/issues/24251
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           referenceElement = this._config.reference; // Check if it's jQuery element
 
           if (typeof this._config.reference.jquery !== 'undefined') {
@@ -9847,11 +11224,15 @@
         // https://github.com/twbs/bootstrap/issues/24251
 
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         if (this._config.boundary !== 'scrollParent') {
           $__default['default'](parent).addClass(CLASS_NAME_POSITION_STATIC);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         this._popper = new Popper$1(referenceElement, this._menu, this._getPopperConfig());
       }
@@ -9863,6 +11244,8 @@
       if ('ontouchstart' in document.documentElement &&
           $__default['default'](parent).closest(SELECTOR_NAVBAR_NAV).length === 0) {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         this._popper = new Popper(referenceElement, this._menu, this._getPopperConfig());
       } // If this is a touch-enabled device we add extra
       // empty mouseover listeners to the body's immediate children;
@@ -9871,11 +11254,15 @@
 
 
       if ('ontouchstart' in document.documentElement && $__default['default'](parent).closest(SELECTOR_NAVBAR_NAV).length === 0) {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         $__default['default'](document.body).children().on('mouseover', null, $__default['default'].noop);
       }
 
       this._element.focus();
+<<<<<<< HEAD
 <<<<<<< HEAD
       this._element.setAttribute('aria-expanded', true);
 
@@ -9896,6 +11283,8 @@
       const hideEvent = $__default['default'].Event(EVENT_HIDE$3, relatedTarget);
       const parent = Dropdown._getParentFromElement(this._element);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       this._element.setAttribute('aria-expanded', true);
 
@@ -9914,22 +11303,30 @@
       var hideEvent = $__default['default'].Event(EVENT_HIDE$1, relatedTarget);
 
       var parent = Dropdown._getParentFromElement(this._element);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       $__default['default'](parent).trigger(hideEvent);
 
       if (hideEvent.isDefaultPrevented()) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return
 =======
         return;
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+        return;
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }
 
       if (this._popper) {
         this._popper.destroy();
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       $__default['default'](this._menu).toggleClass(CLASS_NAME_SHOW$5);
       $__default['default'](parent)
@@ -9985,6 +11382,8 @@
       if (!this._menu) {
         const parent = Dropdown._getParentFromElement(this._element);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       $__default['default'](this._menu).toggleClass(CLASS_NAME_SHOW$2);
       $__default['default'](parent).toggleClass(CLASS_NAME_SHOW$2).trigger($__default['default'].Event(EVENT_HIDDEN$1, relatedTarget));
     };
@@ -10031,13 +11430,17 @@
     _proto._getMenuElement = function _getMenuElement() {
       if (!this._menu) {
         var parent = Dropdown._getParentFromElement(this._element);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
         if (parent) {
           this._menu = parent.querySelector(SELECTOR_MENU);
         }
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       return this._menu
     }
@@ -10052,6 +11455,8 @@
           PLACEMENT_TOPEND :
           PLACEMENT_TOP;
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       return this._menu;
     };
 
@@ -10061,7 +11466,10 @@
 
       if ($parentDropdown.hasClass(CLASS_NAME_DROPUP)) {
         placement = $__default['default'](this._menu).hasClass(CLASS_NAME_MENURIGHT) ? PLACEMENT_TOPEND : PLACEMENT_TOP;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       } else if ($parentDropdown.hasClass(CLASS_NAME_DROPRIGHT)) {
         placement = PLACEMENT_RIGHT;
       } else if ($parentDropdown.hasClass(CLASS_NAME_DROPLEFT)) {
@@ -10070,6 +11478,7 @@
         placement = PLACEMENT_BOTTOMEND;
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       return placement
     }
@@ -10090,6 +11499,8 @@
 
           return data
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       return placement;
     };
 
@@ -10106,12 +11517,16 @@
         offset.fn = function (data) {
           data.offsets = _extends({}, data.offsets, _this2._config.offset(data.offsets, _this2._element) || {});
           return data;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         };
       } else {
         offset.offset = this._config.offset;
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       return offset
     }
@@ -10119,12 +11534,17 @@
     _getPopperConfig() {
       const popperConfig = {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       return offset;
     };
 
     _proto._getPopperConfig = function _getPopperConfig() {
       var popperConfig = {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         placement: this._getPlacement(),
         modifiers: {
           offset: this._getOffset(),
@@ -10136,6 +11556,7 @@
           }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
       };
 
       // Disable Popper if we have a static display
@@ -10143,12 +11564,17 @@
       }; // Disable Popper if we have a static display
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+      }; // Disable Popper if we have a static display
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (this._config.display === 'static') {
         popperConfig.modifiers.applyStyle = {
           enabled: false
         };
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       return {
         ...popperConfig,
@@ -10167,6 +11593,8 @@
           data = new Dropdown(this, _config);
           $__default['default'](this).data(DATA_KEY$6, data);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       return _extends({}, popperConfig, this._config.popperConfig);
     } // Static
     ;
@@ -10180,20 +11608,28 @@
         if (!data) {
           data = new Dropdown(this, _config);
           $__default['default'](this).data(DATA_KEY$4, data);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         if (typeof config === 'string') {
           if (typeof data[config] === 'undefined') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new TypeError(`No method named "${config}"`)
 =======
             throw new TypeError("No method named \"" + config + "\"");
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+            throw new TypeError("No method named \"" + config + "\"");
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           }
 
           data[config]();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
       })
     }
@@ -10211,6 +11647,8 @@
         const context = $__default['default'](toggles[i]).data(DATA_KEY$6);
         const relatedTarget = {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       });
     };
 
@@ -10226,7 +11664,10 @@
 
         var context = $__default['default'](toggles[i]).data(DATA_KEY$4);
         var relatedTarget = {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           relatedTarget: toggles[i]
         };
 
@@ -10235,6 +11676,7 @@
         }
 
         if (!context) {
+<<<<<<< HEAD
 <<<<<<< HEAD
           continue
         }
@@ -10259,6 +11701,8 @@
         // If this is a touch-enabled device we remove the extra
         // empty mouseover listeners we added for iOS support
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           continue;
         }
 
@@ -10281,7 +11725,10 @@
         // empty mouseover listeners we added for iOS support
 
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         if ('ontouchstart' in document.documentElement) {
           $__default['default'](document.body).children().off('mouseover', null, $__default['default'].noop);
         }
@@ -10292,6 +11739,7 @@
           context._popper.destroy();
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         $__default['default'](dropdownMenu).removeClass(CLASS_NAME_SHOW$5);
         $__default['default'](parent)
@@ -10304,6 +11752,8 @@
       let parent;
       const selector = Util.getSelectorFromElement(element);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         $__default['default'](dropdownMenu).removeClass(CLASS_NAME_SHOW$2);
         $__default['default'](parent).removeClass(CLASS_NAME_SHOW$2).trigger($__default['default'].Event(EVENT_HIDDEN$1, relatedTarget));
       }
@@ -10312,12 +11762,16 @@
     Dropdown._getParentFromElement = function _getParentFromElement(element) {
       var parent;
       var selector = Util.getSelectorFromElement(element);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       if (selector) {
         parent = document.querySelector(selector);
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       return parent || element.parentNode
     }
@@ -10325,12 +11779,17 @@
     // eslint-disable-next-line complexity
     static _dataApiKeydownHandler(event) {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       return parent || element.parentNode;
     } // eslint-disable-next-line complexity
     ;
 
     Dropdown._dataApiKeydownHandler = function _dataApiKeydownHandler(event) {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       // If not input/textarea:
       //  - And not a key in REGEXP_KEYDOWN => not a dropdown command
       // If input/textarea:
@@ -10338,6 +11797,7 @@
       //  - If key is other than escape
       //    - If key is not up or down => not a dropdown command
       //    - If trigger inside the menu => not a dropdown command
+<<<<<<< HEAD
 <<<<<<< HEAD
       if (/input|textarea/i.test(event.target.tagName) ?
         event.which === SPACE_KEYCODE || event.which !== ESCAPE_KEYCODE$1 &&
@@ -10356,6 +11816,8 @@
       if (!isActive && event.which === ESCAPE_KEYCODE$1) {
         return
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (/input|textarea/i.test(event.target.tagName) ? event.which === SPACE_KEYCODE || event.which !== ESCAPE_KEYCODE && (event.which !== ARROW_DOWN_KEYCODE && event.which !== ARROW_UP_KEYCODE || $__default['default'](event.target).closest(SELECTOR_MENU).length) : !REGEXP_KEYDOWN.test(event.which)) {
         return;
       }
@@ -10370,12 +11832,16 @@
 
       if (!isActive && event.which === ESCAPE_KEYCODE) {
         return;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }
 
       event.preventDefault();
       event.stopPropagation();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       if (!isActive || (event.which === ESCAPE_KEYCODE$1 || event.which === SPACE_KEYCODE)) {
         if (event.which === ESCAPE_KEYCODE$1) {
@@ -10383,10 +11849,15 @@
       if (!isActive || event.which === ESCAPE_KEYCODE || event.which === SPACE_KEYCODE) {
         if (event.which === ESCAPE_KEYCODE) {
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+      if (!isActive || event.which === ESCAPE_KEYCODE || event.which === SPACE_KEYCODE) {
+        if (event.which === ESCAPE_KEYCODE) {
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           $__default['default'](parent.querySelector(SELECTOR_DATA_TOGGLE$2)).trigger('focus');
         }
 
         $__default['default'](this).trigger('click');
+<<<<<<< HEAD
 <<<<<<< HEAD
         return
       }
@@ -10406,6 +11877,8 @@
 
       if (event.which === ARROW_DOWN_KEYCODE && index < items.length - 1) { // Down
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         return;
       }
 
@@ -10426,7 +11899,10 @@
 
       if (event.which === ARROW_DOWN_KEYCODE && index < items.length - 1) {
         // Down
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         index++;
       }
 
@@ -10436,10 +11912,13 @@
 
       items[index].focus();
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _createClass(Dropdown, null, [{
@@ -10461,13 +11940,17 @@
 
     return Dropdown;
   }();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Data Api implementation
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'](document)
     .on(EVENT_KEYDOWN_DATA_API, SELECTOR_DATA_TOGGLE$2, Dropdown._dataApiKeydownHandler)
@@ -10483,6 +11966,8 @@
     });
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   $__default['default'](document).on(EVENT_KEYDOWN_DATA_API, SELECTOR_DATA_TOGGLE$2, Dropdown._dataApiKeydownHandler).on(EVENT_KEYDOWN_DATA_API, SELECTOR_MENU, Dropdown._dataApiKeydownHandler).on(EVENT_CLICK_DATA_API$4 + " " + EVENT_KEYUP_DATA_API, Dropdown._clearMenus).on(EVENT_CLICK_DATA_API$4, SELECTOR_DATA_TOGGLE$2, function (event) {
     event.preventDefault();
@@ -10492,13 +11977,17 @@
   }).on(EVENT_CLICK_DATA_API$4, SELECTOR_FORM_CHILD, function (e) {
     e.stopPropagation();
   });
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * jQuery
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'].fn[NAME$6] = Dropdown._jQueryInterface;
   $__default['default'].fn[NAME$6].Constructor = Dropdown;
@@ -10515,6 +12004,8 @@
    */
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   $__default['default'].fn[NAME$4] = Dropdown._jQueryInterface;
   $__default['default'].fn[NAME$4].Constructor = Dropdown;
 
@@ -10522,13 +12013,17 @@
     $__default['default'].fn[NAME$4] = JQUERY_NO_CONFLICT$4;
     return Dropdown._jQueryInterface;
   };
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Constants
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   const NAME$5 = 'modal';
   const VERSION$5 = '4.6.0';
@@ -10540,6 +12035,8 @@
 
   const Default$4 = {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   var NAME$5 = 'modal';
   var VERSION$5 = '4.6.0';
@@ -10550,23 +12047,31 @@
   var ESCAPE_KEYCODE$1 = 27; // KeyboardEvent.which value for Escape (Esc) key
 
   var Default$3 = {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     backdrop: true,
     keyboard: true,
     focus: true,
     show: true
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   const DefaultType$4 = {
 =======
   var DefaultType$3 = {
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+  var DefaultType$3 = {
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     backdrop: '(boolean|string)',
     keyboard: 'boolean',
     focus: 'boolean',
     show: 'boolean'
   };
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   const EVENT_HIDE$2 = `hide${EVENT_KEY$5}`;
@@ -10598,6 +12103,8 @@
   const SELECTOR_STICKY_CONTENT = '.sticky-top';
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var EVENT_HIDE$2 = "hide" + EVENT_KEY$5;
   var EVENT_HIDE_PREVENTED = "hidePrevented" + EVENT_KEY$5;
   var EVENT_HIDDEN$2 = "hidden" + EVENT_KEY$5;
@@ -10623,7 +12130,10 @@
   var SELECTOR_DATA_DISMISS = '[data-dismiss="modal"]';
   var SELECTOR_FIXED_CONTENT = '.fixed-top, .fixed-bottom, .is-fixed, .sticky-top';
   var SELECTOR_STICKY_CONTENT = '.sticky-top';
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Class Definition
@@ -10631,12 +12141,17 @@
    */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   class Modal {
     constructor(element, config) {
 =======
   var Modal = /*#__PURE__*/function () {
     function Modal(element, config) {
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+  var Modal = /*#__PURE__*/function () {
+    function Modal(element, config) {
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this._config = this._getConfig(config);
       this._element = element;
       this._dialog = element.querySelector(SELECTOR_DIALOG);
@@ -10646,6 +12161,7 @@
       this._ignoreBackdropClick = false;
       this._isTransitioning = false;
       this._scrollbarWidth = 0;
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -10683,6 +12199,8 @@
       if (this._isShown || showEvent.isDefaultPrevented()) {
         return
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // Getters
 
 
@@ -10710,21 +12228,29 @@
 
       if (this._isShown || showEvent.isDefaultPrevented()) {
         return;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }
 
       this._isShown = true;
 
       this._checkScrollbar();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this._setScrollbar();
 
       this._adjustDialog();
 
       this._setEscapeEvent();
+<<<<<<< HEAD
 <<<<<<< HEAD
       this._setResizeEvent();
 
@@ -10739,6 +12265,8 @@
           if ($__default['default'](event.target).is(this._element)) {
             this._ignoreBackdropClick = true;
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       this._setResizeEvent();
 
@@ -10749,17 +12277,23 @@
         $__default['default'](_this._element).one(EVENT_MOUSEUP_DISMISS, function (event) {
           if ($__default['default'](event.target).is(_this._element)) {
             _this._ignoreBackdropClick = true;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           }
         });
       });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       this._showBackdrop(() => this._showElement(relatedTarget));
     }
 
     hide(event) {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this._showBackdrop(function () {
         return _this._showElement(relatedTarget);
       });
@@ -10768,12 +12302,16 @@
     _proto.hide = function hide(event) {
       var _this2 = this;
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (event) {
         event.preventDefault();
       }
 
       if (!this._isShown || this._isTransitioning) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         return
       }
@@ -10789,6 +12327,8 @@
       this._isShown = false;
       const transition = $__default['default'](this._element).hasClass(CLASS_NAME_FADE$4);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         return;
       }
 
@@ -10801,13 +12341,17 @@
 
       this._isShown = false;
       var transition = $__default['default'](this._element).hasClass(CLASS_NAME_FADE$1);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       if (transition) {
         this._isTransitioning = true;
       }
 
       this._setEscapeEvent();
+<<<<<<< HEAD
 <<<<<<< HEAD
       this._setResizeEvent();
 
@@ -10834,6 +12378,8 @@
         .forEach(htmlElement => $__default['default'](htmlElement).off(EVENT_KEY$5));
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       this._setResizeEvent();
 
@@ -10856,12 +12402,16 @@
       [window, this._element, this._dialog].forEach(function (htmlElement) {
         return $__default['default'](htmlElement).off(EVENT_KEY$5);
       });
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       /**
        * `document` has 2 events `EVENT_FOCUSIN` and `EVENT_CLICK_DATA_API`
        * Do not move `document` in `htmlElements` array
        * It will remove `EVENT_CLICK_DATA_API` event that should remain
        */
+<<<<<<< HEAD
 <<<<<<< HEAD
       $__default['default'](document).off(EVENT_FOCUSIN);
 
@@ -10872,6 +12422,11 @@
       $__default['default'](document).off(EVENT_FOCUSIN);
       $__default['default'].removeData(this._element, DATA_KEY$5);
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+      $__default['default'](document).off(EVENT_FOCUSIN);
+      $__default['default'].removeData(this._element, DATA_KEY$5);
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this._config = null;
       this._element = null;
       this._dialog = null;
@@ -10881,6 +12436,7 @@
       this._ignoreBackdropClick = null;
       this._isTransitioning = null;
       this._scrollbarWidth = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -10909,6 +12465,8 @@
 
       const isModalOverflowing = this._element.scrollHeight > document.documentElement.clientHeight;
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _proto.handleUpdate = function handleUpdate() {
@@ -10933,7 +12491,10 @@
       }
 
       var isModalOverflowing = this._element.scrollHeight > document.documentElement.clientHeight;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       if (!isModalOverflowing) {
         this._element.style.overflowY = 'hidden';
@@ -10941,6 +12502,7 @@
 
       this._element.classList.add(CLASS_NAME_STATIC);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       const modalTransitionDuration = Util.getTransitionDurationFromElement(this._dialog);
       $__default['default'](this._element).off(Util.TRANSITION_END);
@@ -10965,6 +12527,8 @@
       if (!this._element.parentNode ||
           this._element.parentNode.nodeType !== Node.ELEMENT_NODE) {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       var modalTransitionDuration = Util.getTransitionDurationFromElement(this._dialog);
       $__default['default'](this._element).off(Util.TRANSITION_END);
       $__default['default'](this._element).one(Util.TRANSITION_END, function () {
@@ -10987,27 +12551,37 @@
       var modalBody = this._dialog ? this._dialog.querySelector(SELECTOR_MODAL_BODY) : null;
 
       if (!this._element.parentNode || this._element.parentNode.nodeType !== Node.ELEMENT_NODE) {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         // Don't move modal's DOM position
         document.body.appendChild(this._element);
       }
 
       this._element.style.display = 'block';
 <<<<<<< HEAD
+<<<<<<< HEAD
       this._element.removeAttribute('aria-hidden');
       this._element.setAttribute('aria-modal', true);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       this._element.removeAttribute('aria-hidden');
 
       this._element.setAttribute('aria-modal', true);
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this._element.setAttribute('role', 'dialog');
 
       if ($__default['default'](this._dialog).hasClass(CLASS_NAME_SCROLLABLE) && modalBody) {
         modalBody.scrollTop = 0;
       } else {
+<<<<<<< HEAD
         this._element.scrollTop = 0;
       }
 
@@ -11071,6 +12645,21 @@
           } else if (!this._config.keyboard && event.which === ESCAPE_KEYCODE) {
             this._triggerBackdropTransition();
 =======
+=======
+        this._element.scrollTop = 0;
+      }
+
+      if (transition) {
+        Util.reflow(this._element);
+      }
+
+      $__default['default'](this._element).addClass(CLASS_NAME_SHOW$3);
+
+      if (this._config.focus) {
+        this._enforceFocus();
+      }
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       var shownEvent = $__default['default'].Event(EVENT_SHOWN$2, {
         relatedTarget: relatedTarget
       });
@@ -11114,12 +12703,16 @@
             _this6.hide();
           } else if (!_this6._config.keyboard && event.which === ESCAPE_KEYCODE$1) {
             _this6._triggerBackdropTransition();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           }
         });
       } else if (!this._isShown) {
         $__default['default'](this._element).off(EVENT_KEYDOWN_DISMISS);
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -11147,6 +12740,8 @@
 
     _removeBackdrop() {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _proto._setResizeEvent = function _setResizeEvent() {
@@ -11186,11 +12781,15 @@
     };
 
     _proto._removeBackdrop = function _removeBackdrop() {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (this._backdrop) {
         $__default['default'](this._backdrop).remove();
         this._backdrop = null;
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -11198,13 +12797,18 @@
       const animate = $__default['default'](this._element).hasClass(CLASS_NAME_FADE$4) ?
         CLASS_NAME_FADE$4 : '';
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _proto._showBackdrop = function _showBackdrop(callback) {
       var _this9 = this;
 
       var animate = $__default['default'](this._element).hasClass(CLASS_NAME_FADE$1) ? CLASS_NAME_FADE$1 : '';
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       if (this._isShown && this._config.backdrop) {
         this._backdrop = document.createElement('div');
@@ -11215,6 +12819,7 @@
         }
 
         $__default['default'](this._backdrop).appendTo(document.body);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         $__default['default'](this._element).on(EVENT_CLICK_DISMISS$1, event => {
@@ -11232,6 +12837,8 @@
           } else {
             this.hide();
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         $__default['default'](this._element).on(EVENT_CLICK_DISMISS, function (event) {
           if (_this9._ignoreBackdropClick) {
             _this9._ignoreBackdropClick = false;
@@ -11246,7 +12853,10 @@
             _this9._triggerBackdropTransition();
           } else {
             _this9.hide();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           }
         });
 
@@ -11255,20 +12865,27 @@
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $__default['default'](this._backdrop).addClass(CLASS_NAME_SHOW$4);
 
         if (!callback) {
           return
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         $__default['default'](this._backdrop).addClass(CLASS_NAME_SHOW$3);
 
         if (!callback) {
           return;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         if (!animate) {
           callback();
+<<<<<<< HEAD
 <<<<<<< HEAD
           return
         }
@@ -11284,6 +12901,8 @@
         const callbackRemove = () => {
           this._removeBackdrop();
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           return;
         }
 
@@ -11295,12 +12914,16 @@
         var callbackRemove = function callbackRemove() {
           _this9._removeBackdrop();
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           if (callback) {
             callback();
           }
         };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         if ($__default['default'](this._element).hasClass(CLASS_NAME_FADE$4)) {
           const backdropTransitionDuration = Util.getTransitionDurationFromElement(this._backdrop);
@@ -11309,17 +12932,23 @@
             .one(Util.TRANSITION_END, callbackRemove)
             .emulateTransitionEnd(backdropTransitionDuration);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         if ($__default['default'](this._element).hasClass(CLASS_NAME_FADE$1)) {
           var _backdropTransitionDuration = Util.getTransitionDurationFromElement(this._backdrop);
 
           $__default['default'](this._backdrop).one(Util.TRANSITION_END, callbackRemove).emulateTransitionEnd(_backdropTransitionDuration);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         } else {
           callbackRemove();
         }
       } else if (callback) {
         callback();
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -11431,6 +13060,8 @@
           ...(typeof config === 'object' && config ? config : {})
         };
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // ----------------------------------------------------------------------
     // the following methods are used to handle overflowing modals
     // todo (fat): these should probably be refactored out of modal.js
@@ -11528,7 +13159,10 @@
         var data = $__default['default'](this).data(DATA_KEY$5);
 
         var _config = _extends({}, Default$3, $__default['default'](this).data(), typeof config === 'object' && config ? config : {});
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
         if (!data) {
           data = new Modal(this, _config);
@@ -11538,10 +13172,14 @@
         if (typeof config === 'string') {
           if (typeof data[config] === 'undefined') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new TypeError(`No method named "${config}"`)
 =======
             throw new TypeError("No method named \"" + config + "\"");
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+            throw new TypeError("No method named \"" + config + "\"");
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           }
 
           data[config](relatedTarget);
@@ -11549,11 +13187,14 @@
           data.show(relatedTarget);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
       })
     }
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       });
     };
 
@@ -11571,7 +13212,10 @@
 
     return Modal;
   }();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Data Api implementation
@@ -11579,22 +13223,29 @@
    */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   $__default['default'](document).on(EVENT_CLICK_DATA_API$1, SELECTOR_DATA_TOGGLE$1, function (event) {
     let target;
     const selector = Util.getSelectorFromElement(this);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   $__default['default'](document).on(EVENT_CLICK_DATA_API$5, SELECTOR_DATA_TOGGLE$3, function (event) {
     var _this11 = this;
 
     var target;
     var selector = Util.getSelectorFromElement(this);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
     if (selector) {
       target = document.querySelector(selector);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     const config = $__default['default'](target).data(DATA_KEY$5) ?
       'toggle' : {
@@ -11604,11 +13255,15 @@
 =======
     var config = $__default['default'](target).data(DATA_KEY$5) ? 'toggle' : _extends({}, $__default['default'](target).data(), $__default['default'](this).data());
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    var config = $__default['default'](target).data(DATA_KEY$5) ? 'toggle' : _extends({}, $__default['default'](target).data(), $__default['default'](this).data());
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
     if (this.tagName === 'A' || this.tagName === 'AREA') {
       event.preventDefault();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     const $target = $__default['default'](target).one(EVENT_SHOW$2, showEvent => {
       if (showEvent.isDefaultPrevented()) {
@@ -11620,6 +13275,8 @@
         if ($__default['default'](this).is(':visible')) {
           this.focus();
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     var $target = $__default['default'](target).one(EVENT_SHOW$2, function (showEvent) {
       if (showEvent.isDefaultPrevented()) {
         // Only register focus restorer if modal will actually get shown
@@ -11629,7 +13286,10 @@
       $target.one(EVENT_HIDDEN$2, function () {
         if ($__default['default'](_this11).is(':visible')) {
           _this11.focus();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
       });
     });
@@ -11637,9 +13297,12 @@
     Modal._jQueryInterface.call($__default['default'](target), config, this);
   });
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * jQuery
@@ -11649,18 +13312,24 @@
   $__default['default'].fn[NAME$5] = Modal._jQueryInterface;
   $__default['default'].fn[NAME$5].Constructor = Modal;
 <<<<<<< HEAD
+<<<<<<< HEAD
   $__default['default'].fn[NAME$5].noConflict = () => {
     $__default['default'].fn[NAME$5] = JQUERY_NO_CONFLICT$5;
     return Modal._jQueryInterface
   };
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   $__default['default'].fn[NAME$5].noConflict = function () {
     $__default['default'].fn[NAME$5] = JQUERY_NO_CONFLICT$5;
     return Modal._jQueryInterface;
   };
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * --------------------------------------------------------------------------
    * Bootstrap (v4.6.0): tools/sanitizer.js
@@ -11668,6 +13337,7 @@
    * --------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   const uriAttrs = [
     'background',
@@ -11684,11 +13354,16 @@
 
   const DefaultWhitelist = {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   var uriAttrs = ['background', 'cite', 'href', 'itemtype', 'longdesc', 'poster', 'src', 'xlink:href'];
   var ARIA_ATTRIBUTE_PATTERN = /^aria-[\w-]*$/i;
   var DefaultWhitelist = {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     // Global attributes allowed on any supplied element below.
     '*': ['class', 'dir', 'id', 'lang', 'role', ARIA_ATTRIBUTE_PATTERN],
     a: ['target', 'href', 'title', 'rel'],
@@ -11722,14 +13397,18 @@
     ul: []
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * A pattern that recognizes a commonly useful subset of URLs that are safe.
    *
    * Shoutout to Angular 7 https://github.com/angular/angular/blob/7.2.4/packages/core/src/sanitization/url_sanitizer.ts
    */
+<<<<<<< HEAD
 <<<<<<< HEAD
   const SAFE_URL_PATTERN = /^(?:(?:https?|mailto|ftp|tel|file):|[^#&/:?]*(?:[#/?]|$))/gi;
 
@@ -11737,11 +13416,16 @@
 
   var SAFE_URL_PATTERN = /^(?:(?:https?|mailto|ftp|tel|file):|[^#&/:?]*(?:[#/?]|$))/gi;
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+  var SAFE_URL_PATTERN = /^(?:(?:https?|mailto|ftp|tel|file):|[^#&/:?]*(?:[#/?]|$))/gi;
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * A pattern that matches safe data URLs. Only matches image, video and audio types.
    *
    * Shoutout to Angular 7 https://github.com/angular/angular/blob/7.2.4/packages/core/src/sanitization/url_sanitizer.ts
    */
+<<<<<<< HEAD
 <<<<<<< HEAD
   const DATA_URL_PATTERN = /^data:(?:image\/(?:bmp|gif|jpeg|jpg|png|tiff|webp)|video\/(?:mpeg|mp4|ogg|webm)|audio\/(?:mp3|oga|ogg|opus));base64,[\d+/a-z]+=*$/i;
 
@@ -11767,6 +13451,8 @@
 
     return false
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   var DATA_URL_PATTERN = /^data:(?:image\/(?:bmp|gif|jpeg|jpg|png|tiff|webp)|video\/(?:mpeg|mp4|ogg|webm)|audio\/(?:mp3|oga|ogg|opus));base64,[\d+/a-z]+=*$/i;
 
@@ -11792,11 +13478,15 @@
     }
 
     return false;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   }
 
   function sanitizeHtml(unsafeHtml, whiteList, sanitizeFn) {
     if (unsafeHtml.length === 0) {
+<<<<<<< HEAD
 <<<<<<< HEAD
       return unsafeHtml
     }
@@ -11825,6 +13515,8 @@
 
       attributeList.forEach(attr => {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       return unsafeHtml;
     }
 
@@ -11849,11 +13541,15 @@
       var attributeList = [].slice.call(el.attributes);
       var whitelistedAttributes = [].concat(whiteList['*'] || [], whiteList[elName] || []);
       attributeList.forEach(function (attr) {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         if (!allowedAttribute(attr, whitelistedAttributes)) {
           el.removeAttribute(attr.nodeName);
         }
       });
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -11868,6 +13564,8 @@
    */
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     for (var i = 0, len = elements.length; i < len; i++) {
@@ -11878,13 +13576,17 @@
 
     return createdDocument.body.innerHTML;
   }
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Constants
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   const NAME$4 = 'tooltip';
   const VERSION$4 = '4.6.0';
@@ -11897,6 +13599,8 @@
 
   const DefaultType$3 = {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   var NAME$6 = 'tooltip';
   var VERSION$6 = '4.6.0';
@@ -11907,7 +13611,10 @@
   var BSCLS_PREFIX_REGEX = new RegExp("(^|\\s)" + CLASS_PREFIX + "\\S+", 'g');
   var DISALLOWED_ATTRIBUTES = ['sanitize', 'whiteList', 'sanitizeFn'];
   var DefaultType$4 = {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     animation: 'boolean',
     template: 'string',
     title: '(string|element|function)',
@@ -11927,17 +13634,22 @@
     popperConfig: '(null|object)'
   };
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   const AttachmentMap = {
 =======
   var AttachmentMap = {
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+  var AttachmentMap = {
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     AUTO: 'auto',
     TOP: 'top',
     RIGHT: 'right',
     BOTTOM: 'bottom',
     LEFT: 'left'
   };
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   const Default$3 = {
@@ -11950,6 +13662,11 @@
     animation: true,
     template: '<div class="tooltip" role="tooltip">' + '<div class="arrow"></div>' + '<div class="tooltip-inner"></div></div>',
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+  var Default$4 = {
+    animation: true,
+    template: '<div class="tooltip" role="tooltip">' + '<div class="arrow"></div>' + '<div class="tooltip-inner"></div></div>',
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     trigger: 'hover focus',
     title: '',
     delay: 0,
@@ -11966,6 +13683,7 @@
     whiteList: DefaultWhitelist,
     popperConfig: null
   };
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   const HOVER_STATE_SHOW = 'show';
@@ -11996,6 +13714,8 @@
   const TRIGGER_MANUAL = 'manual';
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var HOVER_STATE_SHOW = 'show';
   var HOVER_STATE_OUT = 'out';
   var Event = {
@@ -12018,13 +13738,17 @@
   var TRIGGER_FOCUS = 'focus';
   var TRIGGER_CLICK = 'click';
   var TRIGGER_MANUAL = 'manual';
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Class Definition
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   class Tooltip {
     constructor(element, config) {
@@ -12034,6 +13758,8 @@
 
       // private
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var Tooltip = /*#__PURE__*/function () {
     function Tooltip(element, config) {
       if (typeof Popper === 'undefined') {
@@ -12041,11 +13767,15 @@
       } // private
 
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this._isEnabled = true;
       this._timeout = 0;
       this._hoverState = '';
       this._activeTrigger = {};
+<<<<<<< HEAD
 <<<<<<< HEAD
       this._popper = null;
 
@@ -12054,11 +13784,16 @@
       this._popper = null; // Protected
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+      this._popper = null; // Protected
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this.element = element;
       this.config = this._getConfig(config);
       this.tip = null;
 
       this._setListeners();
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -12121,6 +13856,8 @@
             this._getDelegateConfig()
           );
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // Getters
 
 
@@ -12149,7 +13886,10 @@
 
         if (!context) {
           context = new this.constructor(event.currentTarget, this._getDelegateConfig());
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           $__default['default'](event.currentTarget).data(dataKey, context);
         }
 
@@ -12162,19 +13902,26 @@
         }
       } else {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($__default['default'](this.getTipElement()).hasClass(CLASS_NAME_SHOW$3)) {
           this._leave(null, this);
           return
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         if ($__default['default'](this.getTipElement()).hasClass(CLASS_NAME_SHOW$4)) {
           this._leave(null, this);
 
           return;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         this._enter(null, this);
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -12184,12 +13931,17 @@
       $__default['default'].removeData(this.element, this.constructor.DATA_KEY);
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _proto.dispose = function dispose() {
       clearTimeout(this._timeout);
       $__default['default'].removeData(this.element, this.constructor.DATA_KEY);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       $__default['default'](this.element).off(this.constructor.EVENT_KEY);
       $__default['default'](this.element).closest('.modal').off('hide.bs.modal', this._hideModalHandler);
 
@@ -12202,9 +13954,13 @@
       this._hoverState = null;
       this._activeTrigger = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (this._popper) {
         this._popper.destroy();
       }
@@ -12213,6 +13969,7 @@
       this.element = null;
       this.config = null;
       this.tip = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -12256,6 +14013,8 @@
 
         const container = this._getContainer();
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _proto.show = function show() {
@@ -12294,7 +14053,10 @@
 
         var container = this._getContainer();
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         $__default['default'](tip).data(this.constructor.DATA_KEY, this);
 
         if (!$__default['default'].contains(this.element.ownerDocument.documentElement, this.tip)) {
@@ -12302,6 +14064,7 @@
         }
 
         $__default['default'](this.element).trigger(this.constructor.Event.INSERTED);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         this._popper = new Popper$1(this.element, tip, this._getPopperConfig(attachment));
@@ -12314,6 +14077,8 @@
         // only needed because of broken event delegation on iOS
         // https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.html
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         this._popper = new Popper(this.element, tip, this._getPopperConfig(attachment));
         $__default['default'](tip).addClass(CLASS_NAME_SHOW$4);
         $__default['default'](tip).addClass(this.config.customClass); // If this is a touch-enabled device we add extra
@@ -12321,6 +14086,7 @@
         // only needed because of broken event delegation on iOS
         // https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.html
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
         if ('ontouchstart' in document.documentElement) {
           $__default['default'](document.body).children().on('mouseover', null, $__default['default'].noop);
@@ -12349,6 +14115,12 @@
             .one(Util.TRANSITION_END, complete)
             .emulateTransitionEnd(transitionDuration);
 =======
+=======
+        if ('ontouchstart' in document.documentElement) {
+          $__default['default'](document.body).children().on('mouseover', null, $__default['default'].noop);
+        }
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         var complete = function complete() {
           if (_this.config.animation) {
             _this._fixTransition();
@@ -12366,11 +14138,15 @@
         if ($__default['default'](this.tip).hasClass(CLASS_NAME_FADE$2)) {
           var transitionDuration = Util.getTransitionDurationFromElement(this.tip);
           $__default['default'](this.tip).one(Util.TRANSITION_END, complete).emulateTransitionEnd(transitionDuration);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         } else {
           complete();
         }
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -12388,6 +14164,8 @@
         if (this._popper !== null) {
           this._popper.destroy();
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _proto.hide = function hide(callback) {
@@ -12409,7 +14187,10 @@
 
         if (_this2._popper !== null) {
           _this2._popper.destroy();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         if (callback) {
@@ -12421,6 +14202,7 @@
 
       if (hideEvent.isDefaultPrevented()) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return
       }
 
@@ -12429,13 +14211,18 @@
       // If this is a touch-enabled device we remove the extra
       // empty mouseover listeners we added for iOS support
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         return;
       }
 
       $__default['default'](tip).removeClass(CLASS_NAME_SHOW$4); // If this is a touch-enabled device we remove the extra
       // empty mouseover listeners we added for iOS support
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if ('ontouchstart' in document.documentElement) {
         $__default['default'](document.body).children().off('mouseover', null, $__default['default'].noop);
       }
@@ -12444,6 +14231,7 @@
       this._activeTrigger[TRIGGER_FOCUS] = false;
       this._activeTrigger[TRIGGER_HOVER] = false;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       if ($__default['default'](this.tip).hasClass(CLASS_NAME_FADE$3)) {
         const transitionDuration = Util.getTransitionDurationFromElement(tip);
@@ -12456,11 +14244,17 @@
         var transitionDuration = Util.getTransitionDurationFromElement(tip);
         $__default['default'](tip).one(Util.TRANSITION_END, complete).emulateTransitionEnd(transitionDuration);
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+      if ($__default['default'](this.tip).hasClass(CLASS_NAME_FADE$2)) {
+        var transitionDuration = Util.getTransitionDurationFromElement(tip);
+        $__default['default'](tip).one(Util.TRANSITION_END, complete).emulateTransitionEnd(transitionDuration);
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       } else {
         complete();
       }
 
       this._hoverState = '';
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -12493,6 +14287,8 @@
 
     setElementContent($element, content) {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _proto.update = function update() {
@@ -12522,7 +14318,10 @@
     };
 
     _proto.setElementContent = function setElementContent($element, content) {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (typeof content === 'object' && (content.nodeType || content.jquery)) {
         // Content is a DOM node or a jQuery
         if (this.config.html) {
@@ -12534,10 +14333,14 @@
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return
 =======
         return;
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+        return;
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }
 
       if (this.config.html) {
@@ -12549,6 +14352,7 @@
       } else {
         $element.text(content);
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -12569,6 +14373,8 @@
     _getPopperConfig(attachment) {
       const defaultBsConfig = {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _proto.getTitle = function getTitle() {
@@ -12586,7 +14392,10 @@
       var _this3 = this;
 
       var defaultBsConfig = {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         placement: attachment,
         modifiers: {
           offset: this._getOffset(),
@@ -12600,6 +14409,7 @@
             boundariesElement: this.config.boundary
           }
         },
+<<<<<<< HEAD
 <<<<<<< HEAD
         onCreate: data => {
           if (data.originalPlacement !== data.placement) {
@@ -12627,6 +14437,8 @@
 
           return data
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         onCreate: function onCreate(data) {
           if (data.originalPlacement !== data.placement) {
             _this3._handlePopperPlacementChange(data);
@@ -12648,12 +14460,16 @@
         offset.fn = function (data) {
           data.offsets = _extends({}, data.offsets, _this4.config.offset(data.offsets, _this4.element) || {});
           return data;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         };
       } else {
         offset.offset = this.config.offset;
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       return offset
     }
@@ -12702,6 +14518,8 @@
         if (this.element) {
           this.hide();
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       return offset;
     };
 
@@ -12744,13 +14562,17 @@
       this._hideModalHandler = function () {
         if (_this5.element) {
           _this5.hide();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
       };
 
       $__default['default'](this.element).closest('.modal').on('hide.bs.modal', this._hideModalHandler);
 
       if (this.config.selector) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         this.config = {
           ...this.config,
@@ -12785,6 +14607,8 @@
           this._getDelegateConfig()
         );
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         this.config = _extends({}, this.config, {
           trigger: 'manual',
           selector: ''
@@ -12809,11 +14633,15 @@
 
       if (!context) {
         context = new this.constructor(event.currentTarget, this._getDelegateConfig());
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         $__default['default'](event.currentTarget).data(dataKey, context);
       }
 
       if (event) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         context._activeTrigger[
           event.type === 'focusin' ? TRIGGER_FOCUS : TRIGGER_HOVER
@@ -12828,6 +14656,8 @@
       clearTimeout(context._timeout);
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         context._activeTrigger[event.type === 'focusin' ? TRIGGER_FOCUS : TRIGGER_HOVER] = true;
       }
 
@@ -12837,26 +14667,36 @@
       }
 
       clearTimeout(context._timeout);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       context._hoverState = HOVER_STATE_SHOW;
 
       if (!context.config.delay || !context.config.delay.show) {
         context.show();
+<<<<<<< HEAD
 <<<<<<< HEAD
         return
       }
 
       context._timeout = setTimeout(() => {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         return;
       }
 
       context._timeout = setTimeout(function () {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         if (context._hoverState === HOVER_STATE_SHOW) {
           context.show();
         }
       }, context.config.delay.show);
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -12870,6 +14710,8 @@
           this._getDelegateConfig()
         );
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _proto._leave = function _leave(event, context) {
@@ -12878,11 +14720,15 @@
 
       if (!context) {
         context = new this.constructor(event.currentTarget, this._getDelegateConfig());
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         $__default['default'](event.currentTarget).data(dataKey, context);
       }
 
       if (event) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         context._activeTrigger[
           event.type === 'focusout' ? TRIGGER_FOCUS : TRIGGER_HOVER
@@ -12896,6 +14742,8 @@
       clearTimeout(context._timeout);
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         context._activeTrigger[event.type === 'focusout' ? TRIGGER_FOCUS : TRIGGER_HOVER] = false;
       }
 
@@ -12904,26 +14752,36 @@
       }
 
       clearTimeout(context._timeout);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       context._hoverState = HOVER_STATE_OUT;
 
       if (!context.config.delay || !context.config.delay.hide) {
         context.hide();
+<<<<<<< HEAD
 <<<<<<< HEAD
         return
       }
 
       context._timeout = setTimeout(() => {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         return;
       }
 
       context._timeout = setTimeout(function () {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         if (context._hoverState === HOVER_STATE_OUT) {
           context.hide();
         }
       }, context.config.delay.hide);
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -12953,6 +14811,8 @@
         ...(typeof config === 'object' && config ? config : {})
       };
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _proto._isWithActiveTrigger = function _isWithActiveTrigger() {
@@ -12973,7 +14833,10 @@
         }
       });
       config = _extends({}, this.constructor.Default, dataAttributes, typeof config === 'object' && config ? config : {});
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       if (typeof config.delay === 'number') {
         config.delay = {
@@ -12991,6 +14854,7 @@
       }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       Util.typeCheckConfig(
         NAME$4,
         config,
@@ -12999,11 +14863,15 @@
 =======
       Util.typeCheckConfig(NAME$6, config, this.constructor.DefaultType);
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+      Util.typeCheckConfig(NAME$6, config, this.constructor.DefaultType);
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       if (config.sanitize) {
         config.template = sanitizeHtml(config.template, config.whiteList, config.sanitizeFn);
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       return config
     }
@@ -13014,6 +14882,8 @@
       if (this.config) {
         for (const key in this.config) {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       return config;
     };
 
@@ -13022,13 +14892,17 @@
 
       if (this.config) {
         for (var key in this.config) {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           if (this.constructor.Default[key] !== this.config[key]) {
             config[key] = this.config[key];
           }
         }
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       return config
     }
@@ -13057,6 +14931,8 @@
 
       $__default['default'](tip).removeClass(CLASS_NAME_FADE$3);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       return config;
     };
 
@@ -13086,11 +14962,15 @@
       }
 
       $__default['default'](tip).removeClass(CLASS_NAME_FADE$2);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this.config.animation = false;
       this.hide();
       this.show();
       this.config.animation = initConfigAnimation;
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -13105,6 +14985,8 @@
         if (!data && /dispose|hide/.test(config)) {
           return
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // Static
     ;
 
@@ -13117,35 +14999,49 @@
 
         if (!data && /dispose|hide/.test(config)) {
           return;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         if (!data) {
           data = new Tooltip(this, _config);
 <<<<<<< HEAD
+<<<<<<< HEAD
           $element.data(DATA_KEY$4, data);
 =======
           $element.data(DATA_KEY$6, data);
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+          $element.data(DATA_KEY$6, data);
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         if (typeof config === 'string') {
           if (typeof data[config] === 'undefined') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new TypeError(`No method named "${config}"`)
 =======
             throw new TypeError("No method named \"" + config + "\"");
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+            throw new TypeError("No method named \"" + config + "\"");
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           }
 
           data[config]();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
       })
     }
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       });
     };
 
@@ -13188,13 +15084,17 @@
 
     return Tooltip;
   }();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * jQuery
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'].fn[NAME$4] = Tooltip._jQueryInterface;
   $__default['default'].fn[NAME$4].Constructor = Tooltip;
@@ -13211,6 +15111,8 @@
    */
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   $__default['default'].fn[NAME$6] = Tooltip._jQueryInterface;
   $__default['default'].fn[NAME$6].Constructor = Tooltip;
@@ -13219,13 +15121,17 @@
     $__default['default'].fn[NAME$6] = JQUERY_NO_CONFLICT$6;
     return Tooltip._jQueryInterface;
   };
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Constants
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   const NAME$3 = 'popover';
   const VERSION$3 = '4.6.0';
@@ -13271,6 +15177,8 @@
   };
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   var NAME$7 = 'popover';
   var VERSION$7 = '4.6.0';
@@ -13307,13 +15215,17 @@
     MOUSEENTER: "mouseenter" + EVENT_KEY$7,
     MOUSELEAVE: "mouseleave" + EVENT_KEY$7
   };
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Class Definition
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   class Popover extends Tooltip {
     // Getters
@@ -13368,6 +15280,8 @@
       this.setElementContent($tip.find(SELECTOR_TITLE), this.getTitle());
       let content = this._getContent();
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var Popover = /*#__PURE__*/function (_Tooltip) {
     _inheritsLoose(Popover, _Tooltip);
 
@@ -13397,12 +15311,16 @@
 
       var content = this._getContent();
 
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (typeof content === 'function') {
         content = content.call(this.element);
       }
 
       this.setElementContent($tip.find(SELECTOR_CONTENT), content);
+<<<<<<< HEAD
 <<<<<<< HEAD
 
       $tip.removeClass(`${CLASS_NAME_FADE$2} ${CLASS_NAME_SHOW$2}`);
@@ -13433,6 +15351,8 @@
         if (!data && /dispose|hide/.test(config)) {
           return
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       $tip.removeClass(CLASS_NAME_FADE$3 + " " + CLASS_NAME_SHOW$5);
     } // Private
     ;
@@ -13459,35 +15379,49 @@
 
         if (!data && /dispose|hide/.test(config)) {
           return;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         if (!data) {
           data = new Popover(this, _config);
 <<<<<<< HEAD
+<<<<<<< HEAD
           $__default['default'](this).data(DATA_KEY$3, data);
 =======
           $__default['default'](this).data(DATA_KEY$7, data);
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+          $__default['default'](this).data(DATA_KEY$7, data);
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         if (typeof config === 'string') {
           if (typeof data[config] === 'undefined') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new TypeError(`No method named "${config}"`)
 =======
             throw new TypeError("No method named \"" + config + "\"");
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+            throw new TypeError("No method named \"" + config + "\"");
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           }
 
           data[config]();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
       })
     }
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       });
     };
 
@@ -13531,13 +15465,17 @@
 
     return Popover;
   }(Tooltip);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * jQuery
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'].fn[NAME$3] = Popover._jQueryInterface;
   $__default['default'].fn[NAME$3].Constructor = Popover;
@@ -13554,6 +15492,8 @@
    */
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   $__default['default'].fn[NAME$7] = Popover._jQueryInterface;
   $__default['default'].fn[NAME$7].Constructor = Popover;
@@ -13562,13 +15502,17 @@
     $__default['default'].fn[NAME$7] = JQUERY_NO_CONFLICT$7;
     return Popover._jQueryInterface;
   };
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Constants
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   const NAME$2 = 'scrollspy';
   const VERSION$2 = '4.6.0';
@@ -13579,6 +15523,8 @@
 
   const Default$1 = {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   var NAME$8 = 'scrollspy';
   var VERSION$8 = '4.6.0';
@@ -13587,21 +15533,29 @@
   var DATA_API_KEY$6 = '.data-api';
   var JQUERY_NO_CONFLICT$8 = $__default['default'].fn[NAME$8];
   var Default$6 = {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     offset: 10,
     method: 'auto',
     target: ''
   };
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   const DefaultType$1 = {
 =======
   var DefaultType$6 = {
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+  var DefaultType$6 = {
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     offset: 'number',
     method: 'string',
     target: '(string|element)'
   };
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   const EVENT_ACTIVATE = `activate${EVENT_KEY$2}`;
@@ -13624,6 +15578,8 @@
   const METHOD_POSITION = 'position';
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var EVENT_ACTIVATE = "activate" + EVENT_KEY$8;
   var EVENT_SCROLL = "scroll" + EVENT_KEY$8;
   var EVENT_LOAD_DATA_API$2 = "load" + EVENT_KEY$8 + DATA_API_KEY$6;
@@ -13639,13 +15595,17 @@
   var SELECTOR_DROPDOWN_TOGGLE = '.dropdown-toggle';
   var METHOD_OFFSET = 'offset';
   var METHOD_POSITION = 'position';
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Class Definition
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   class ScrollSpy {
     constructor(element, config) {
@@ -13741,6 +15701,20 @@
       $__default['default'](this._scrollElement).off(EVENT_KEY$2);
 
 =======
+=======
+  var ScrollSpy = /*#__PURE__*/function () {
+    function ScrollSpy(element, config) {
+      var _this = this;
+
+      this._element = element;
+      this._scrollElement = element.tagName === 'BODY' ? window : element;
+      this._config = this._getConfig(config);
+      this._selector = this._config.target + " " + SELECTOR_NAV_LINKS + "," + (this._config.target + " " + SELECTOR_LIST_ITEMS + ",") + (this._config.target + " " + SELECTOR_DROPDOWN_ITEMS);
+      this._offsets = [];
+      this._targets = [];
+      this._activeTarget = null;
+      this._scrollHeight = 0;
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       $__default['default'](this._scrollElement).on(EVENT_SCROLL, function (event) {
         return _this._process(event);
       });
@@ -13794,7 +15768,10 @@
     _proto.dispose = function dispose() {
       $__default['default'].removeData(this._element, DATA_KEY$8);
       $__default['default'](this._scrollElement).off(EVENT_KEY$8);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this._element = null;
       this._scrollElement = null;
       this._config = null;
@@ -13803,6 +15780,7 @@
       this._targets = null;
       this._activeTarget = null;
       this._scrollHeight = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -13851,6 +15829,8 @@
       const scrollHeight = this._getScrollHeight();
       const maxScroll = this._config.offset + scrollHeight - this._getOffsetHeight();
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // Private
     ;
 
@@ -13890,7 +15870,10 @@
       var scrollHeight = this._getScrollHeight();
 
       var maxScroll = this._config.offset + scrollHeight - this._getOffsetHeight();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       if (this._scrollHeight !== scrollHeight) {
         this.refresh();
@@ -13898,24 +15881,33 @@
 
       if (scrollTop >= maxScroll) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const target = this._targets[this._targets.length - 1];
 =======
         var target = this._targets[this._targets.length - 1];
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+        var target = this._targets[this._targets.length - 1];
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
         if (this._activeTarget !== target) {
           this._activate(target);
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return
 =======
         return;
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+        return;
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }
 
       if (this._activeTarget && scrollTop < this._offsets[0] && this._offsets[0] > 0) {
         this._activeTarget = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
         this._clear();
         return
@@ -13927,6 +15919,8 @@
             (typeof this._offsets[i + 1] === 'undefined' ||
                 scrollTop < this._offsets[i + 1]);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
         this._clear();
 
@@ -13935,12 +15929,16 @@
 
       for (var i = this._offsets.length; i--;) {
         var isActiveTarget = this._activeTarget !== this._targets[i] && scrollTop >= this._offsets[i] && (typeof this._offsets[i + 1] === 'undefined' || scrollTop < this._offsets[i + 1]);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
         if (isActiveTarget) {
           this._activate(this._targets[i]);
         }
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -13950,10 +15948,16 @@
 
     _proto._activate = function _activate(target) {
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+    };
+
+    _proto._activate = function _activate(target) {
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this._activeTarget = target;
 
       this._clear();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       const queries = this._selector
         .split(',')
@@ -13980,6 +15984,8 @@
           .children(SELECTOR_NAV_LINKS)
           .addClass(CLASS_NAME_ACTIVE$1);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       var queries = this._selector.split(',').map(function (selector) {
         return selector + "[data-target=\"" + target + "\"]," + selector + "[href=\"" + target + "\"]";
       });
@@ -13997,12 +16003,16 @@
         $link.parents(SELECTOR_NAV_LIST_GROUP).prev(SELECTOR_NAV_LINKS + ", " + SELECTOR_LIST_ITEMS).addClass(CLASS_NAME_ACTIVE$2); // Handle special case when .nav-link is inside .nav-item
 
         $link.parents(SELECTOR_NAV_LIST_GROUP).prev(SELECTOR_NAV_ITEMS).children(SELECTOR_NAV_LINKS).addClass(CLASS_NAME_ACTIVE$2);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }
 
       $__default['default'](this._scrollElement).trigger(EVENT_ACTIVATE, {
         relatedTarget: target
       });
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -14023,6 +16033,8 @@
           data = new ScrollSpy(this, _config);
           $__default['default'](this).data(DATA_KEY$2, data);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _proto._clear = function _clear() {
@@ -14043,26 +16055,36 @@
         if (!data) {
           data = new ScrollSpy(this, _config);
           $__default['default'](this).data(DATA_KEY$8, data);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         if (typeof config === 'string') {
           if (typeof data[config] === 'undefined') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new TypeError(`No method named "${config}"`)
 =======
             throw new TypeError("No method named \"" + config + "\"");
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+            throw new TypeError("No method named \"" + config + "\"");
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           }
 
           data[config]();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
       })
     }
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       });
     };
 
@@ -14080,13 +16102,17 @@
 
     return ScrollSpy;
   }();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Data Api implementation
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'](window).on(EVENT_LOAD_DATA_API, () => {
     const scrollSpys = [].slice.call(document.querySelectorAll(SELECTOR_DATA_SPY));
@@ -14099,6 +16125,8 @@
   });
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   $__default['default'](window).on(EVENT_LOAD_DATA_API$2, function () {
     var scrollSpys = [].slice.call(document.querySelectorAll(SELECTOR_DATA_SPY));
@@ -14110,13 +16138,17 @@
       ScrollSpy._jQueryInterface.call($spy, $spy.data());
     }
   });
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * jQuery
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'].fn[NAME$2] = ScrollSpy._jQueryInterface;
   $__default['default'].fn[NAME$2].Constructor = ScrollSpy;
@@ -14133,6 +16165,8 @@
    */
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   $__default['default'].fn[NAME$8] = ScrollSpy._jQueryInterface;
   $__default['default'].fn[NAME$8].Constructor = ScrollSpy;
 
@@ -14140,13 +16174,17 @@
     $__default['default'].fn[NAME$8] = JQUERY_NO_CONFLICT$8;
     return ScrollSpy._jQueryInterface;
   };
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Constants
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   const NAME$1 = 'tab';
   const VERSION$1 = '4.6.0';
@@ -14176,6 +16214,8 @@
   const SELECTOR_DROPDOWN_ACTIVE_CHILD = '> .dropdown-menu .active';
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   var NAME$9 = 'tab';
   var VERSION$9 = '4.6.0';
@@ -14200,13 +16240,17 @@
   var SELECTOR_DATA_TOGGLE$4 = '[data-toggle="tab"], [data-toggle="pill"], [data-toggle="list"]';
   var SELECTOR_DROPDOWN_TOGGLE$1 = '.dropdown-toggle';
   var SELECTOR_DROPDOWN_ACTIVE_CHILD = '> .dropdown-menu .active';
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Class Definition
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   class Tab {
     constructor(element) {
@@ -14237,6 +16281,8 @@
       if (listElement) {
         const itemSelector = listElement.nodeName === 'UL' || listElement.nodeName === 'OL' ? SELECTOR_ACTIVE_UL : SELECTOR_ACTIVE;
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var Tab = /*#__PURE__*/function () {
     function Tab(element) {
       this._element = element;
@@ -14259,11 +16305,15 @@
 
       if (listElement) {
         var itemSelector = listElement.nodeName === 'UL' || listElement.nodeName === 'OL' ? SELECTOR_ACTIVE_UL : SELECTOR_ACTIVE$2;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         previous = $__default['default'].makeArray($__default['default'](listElement).find(itemSelector));
         previous = previous[previous.length - 1];
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       const hideEvent = $__default['default'].Event(EVENT_HIDE$1, {
         relatedTarget: this._element
@@ -14271,11 +16321,16 @@
 
       const showEvent = $__default['default'].Event(EVENT_SHOW$1, {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       var hideEvent = $__default['default'].Event(EVENT_HIDE$3, {
         relatedTarget: this._element
       });
       var showEvent = $__default['default'].Event(EVENT_SHOW$3, {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         relatedTarget: previous
       });
 
@@ -14286,6 +16341,7 @@
       $__default['default'](this._element).trigger(showEvent);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (showEvent.isDefaultPrevented() ||
           hideEvent.isDefaultPrevented()) {
         return
@@ -14293,12 +16349,17 @@
       if (showEvent.isDefaultPrevented() || hideEvent.isDefaultPrevented()) {
         return;
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+      if (showEvent.isDefaultPrevented() || hideEvent.isDefaultPrevented()) {
+        return;
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }
 
       if (selector) {
         target = document.querySelector(selector);
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       this._activate(
         this._element,
@@ -14317,6 +16378,8 @@
         $__default['default'](previous).trigger(hiddenEvent);
         $__default['default'](this._element).trigger(shownEvent);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       this._activate(this._element, listElement);
 
       var complete = function complete() {
@@ -14328,7 +16391,10 @@
         });
         $__default['default'](previous).trigger(hiddenEvent);
         $__default['default'](_this._element).trigger(shownEvent);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       };
 
       if (target) {
@@ -14336,6 +16402,7 @@
       } else {
         complete();
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -14382,6 +16449,8 @@
         if (dropdownChild) {
           $__default['default'](dropdownChild).removeClass(CLASS_NAME_ACTIVE);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     };
 
     _proto.dispose = function dispose() {
@@ -14416,7 +16485,10 @@
 
         if (dropdownChild) {
           $__default['default'](dropdownChild).removeClass(CLASS_NAME_ACTIVE$3);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         if (active.getAttribute('role') === 'tab') {
@@ -14425,17 +16497,23 @@
       }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       $__default['default'](element).addClass(CLASS_NAME_ACTIVE);
 =======
       $__default['default'](element).addClass(CLASS_NAME_ACTIVE$3);
 
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+      $__default['default'](element).addClass(CLASS_NAME_ACTIVE$3);
+
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (element.getAttribute('role') === 'tab') {
         element.setAttribute('aria-selected', true);
       }
 
       Util.reflow(element);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       if (element.classList.contains(CLASS_NAME_FADE$1)) {
         element.classList.add(CLASS_NAME_SHOW$1);
@@ -14449,6 +16527,8 @@
 
           $__default['default'](dropdownToggleList).addClass(CLASS_NAME_ACTIVE);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       if (element.classList.contains(CLASS_NAME_FADE$4)) {
         element.classList.add(CLASS_NAME_SHOW$6);
       }
@@ -14459,7 +16539,10 @@
         if (dropdownElement) {
           var dropdownToggleList = [].slice.call(dropdownElement.querySelectorAll(SELECTOR_DROPDOWN_TOGGLE$1));
           $__default['default'](dropdownToggleList).addClass(CLASS_NAME_ACTIVE$3);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         element.setAttribute('aria-expanded', true);
@@ -14468,6 +16551,7 @@
       if (callback) {
         callback();
       }
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -14482,6 +16566,8 @@
           data = new Tab(this);
           $this.data(DATA_KEY$1, data);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     } // Static
     ;
 
@@ -14493,26 +16579,36 @@
         if (!data) {
           data = new Tab(this);
           $this.data(DATA_KEY$9, data);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         if (typeof config === 'string') {
           if (typeof data[config] === 'undefined') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new TypeError(`No method named "${config}"`)
 =======
             throw new TypeError("No method named \"" + config + "\"");
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+            throw new TypeError("No method named \"" + config + "\"");
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           }
 
           data[config]();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
       })
     }
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       });
     };
 
@@ -14525,13 +16621,17 @@
 
     return Tab;
   }();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Data Api implementation
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'](document)
     .on(EVENT_CLICK_DATA_API, SELECTOR_DATA_TOGGLE, function (event) {
@@ -14540,19 +16640,25 @@
     });
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   $__default['default'](document).on(EVENT_CLICK_DATA_API$6, SELECTOR_DATA_TOGGLE$4, function (event) {
     event.preventDefault();
 
     Tab._jQueryInterface.call($__default['default'](this), 'show');
   });
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * jQuery
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'].fn[NAME$1] = Tab._jQueryInterface;
   $__default['default'].fn[NAME$1].Constructor = Tab;
@@ -14569,6 +16675,8 @@
    */
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   $__default['default'].fn[NAME$9] = Tab._jQueryInterface;
   $__default['default'].fn[NAME$9].Constructor = Tab;
 
@@ -14576,13 +16684,17 @@
     $__default['default'].fn[NAME$9] = JQUERY_NO_CONFLICT$9;
     return Tab._jQueryInterface;
   };
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Constants
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   const NAME = 'toast';
   const VERSION = '4.6.0';
@@ -14603,6 +16715,8 @@
 
   const DefaultType = {
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   var NAME$a = 'toast';
   var VERSION$a = '4.6.0';
@@ -14619,21 +16733,29 @@
   var CLASS_NAME_SHOW$7 = 'show';
   var CLASS_NAME_SHOWING = 'showing';
   var DefaultType$7 = {
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     animation: 'boolean',
     autohide: 'boolean',
     delay: 'number'
   };
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   const Default = {
 =======
   var Default$7 = {
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+  var Default$7 = {
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
     animation: true,
     autohide: true,
     delay: 500
   };
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   const SELECTOR_DATA_DISMISS = '[data-dismiss="toast"]';
@@ -14641,12 +16763,16 @@
 =======
   var SELECTOR_DATA_DISMISS$1 = '[data-dismiss="toast"]';
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+  var SELECTOR_DATA_DISMISS$1 = '[data-dismiss="toast"]';
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * Class Definition
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   class Toast {
     constructor(element, config) {
@@ -14679,6 +16805,8 @@
       if (showEvent.isDefaultPrevented()) {
         return
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   var Toast = /*#__PURE__*/function () {
     function Toast(element, config) {
       this._element = element;
@@ -14699,12 +16827,16 @@
 
       if (showEvent.isDefaultPrevented()) {
         return;
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       }
 
       this._clearTimeout();
 
       if (this._config.animation) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         this._element.classList.add(CLASS_NAME_FADE);
       }
@@ -14720,6 +16852,8 @@
             this.hide();
           }, this._config.delay);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         this._element.classList.add(CLASS_NAME_FADE$5);
       }
 
@@ -14734,11 +16868,15 @@
           _this._timeout = setTimeout(function () {
             _this.hide();
           }, _this._config.delay);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
       };
 
       this._element.classList.remove(CLASS_NAME_HIDE);
+<<<<<<< HEAD
 <<<<<<< HEAD
       Util.reflow(this._element);
       this._element.classList.add(CLASS_NAME_SHOWING);
@@ -14839,6 +16977,8 @@
           data = new Toast(this, _config);
           $element.data(DATA_KEY, data);
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
       Util.reflow(this._element);
 
@@ -14930,26 +17070,36 @@
         if (!data) {
           data = new Toast(this, _config);
           $element.data(DATA_KEY$a, data);
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
         }
 
         if (typeof config === 'string') {
           if (typeof data[config] === 'undefined') {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new TypeError(`No method named "${config}"`)
 =======
             throw new TypeError("No method named \"" + config + "\"");
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+            throw new TypeError("No method named \"" + config + "\"");
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
           }
 
           data[config](this);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
       })
     }
   }
 
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
       });
     };
 
@@ -14972,13 +17122,17 @@
 
     return Toast;
   }();
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   /**
    * ------------------------------------------------------------------------
    * jQuery
    * ------------------------------------------------------------------------
    */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   $__default['default'].fn[NAME] = Toast._jQueryInterface;
   $__default['default'].fn[NAME].Constructor = Toast;
@@ -15021,6 +17175,8 @@
     }
   })();
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   $__default['default'].fn[NAME$a] = Toast._jQueryInterface;
   $__default['default'].fn[NAME$a].Constructor = Toast;
@@ -15029,7 +17185,10 @@
     $__default['default'].fn[NAME$a] = JQUERY_NO_CONFLICT$a;
     return Toast._jQueryInterface;
   };
+<<<<<<< HEAD
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
 
   exports.Alert = Alert;
   exports.Button = Button;
@@ -15039,14 +17198,18 @@
   exports.Modal = Modal;
   exports.Popover = Popover;
 <<<<<<< HEAD
+<<<<<<< HEAD
   exports.Popper = Popper$2;
 =======
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   exports.Scrollspy = ScrollSpy;
   exports.Tab = Tab;
   exports.Toast = Toast;
   exports.Tooltip = Tooltip;
   exports.Util = Util;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   Object.defineProperty(exports, '__esModule', { value: true });
@@ -15054,6 +17217,8 @@
 })));
 //# sourceMappingURL=child-theme.js.map
 =======
+=======
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
   Object.defineProperty(exports, '__esModule', {
     value: true
   });
@@ -15102,5 +17267,9 @@
     $('#home-carousel').on('slide.bs.carousel', function () {// console.log('Ha! gotchya bish!... from the carousel sliding');
     });
   });
+<<<<<<< HEAD
 })(jQuery);
 >>>>>>> 4f29457 (Add fullscreen landing page)
+=======
+})(jQuery);
+>>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
