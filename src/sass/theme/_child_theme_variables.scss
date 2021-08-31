@@ -9,12 +9,12 @@
 // Color system
 //
 
-$brandcolor:#d9141e;
+// $brandcolor:#d9141e;
 
-.btn-primary {
-    @include button-variant($brandcolor, darken($brandcolor, 7.5%), darken($brandcolor, 10%), lighten($brandcolor,5%), lighten($brandcolor, 10%), darken($brandcolor,30%));
-}
+// .btn-primary {
+//     @include button-variant($brandcolor, darken($brandcolor, 7.5%), darken($brandcolor, 10%), lighten($brandcolor,5%), lighten($brandcolor, 10%), darken($brandcolor,30%));
+// }
 
-.btn-outline-primary {
-    @include button-outline-variant($brandcolor, #222222, lighten($brandcolor,5%), $brandcolor);
-}
+// .btn-outline-primary {
+//     @include button-outline-variant($brandcolor, #222222, lighten($brandcolor,5%), $brandcolor);
+// }

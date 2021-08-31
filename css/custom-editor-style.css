@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 @charset "UTF-8";
 *,
 *::before,
@@ -119,12 +117,12 @@ sup {
 }
 
 a {
-  color: #5533ff;
+  color: #007bff;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #2600e6;
+  color: #0056b3;
   text-decoration: underline;
 }
 
@@ -320,7 +318,7 @@ template {
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
-  --purple: #5533ff;
+  --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
@@ -331,7 +329,7 @@ template {
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #5533ff;
+  --primary: #007bff;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -406,21 +404,21 @@ template {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #cfc6ff;
+  background-color: #b8daff;
 }
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #a795ff;
+  border-color: #7abaff;
 }
 
 .table-hover .table-primary:hover {
-  background-color: #baadff;
+  background-color: #9fcdff;
 }
 .table-hover .table-primary:hover > td,
 .table-hover .table-primary:hover > th {
-  background-color: #baadff;
+  background-color: #9fcdff;
 }
 
 .table-secondary,
@@ -827,12 +825,12 @@ mark,
 
 .has-purple-color,
 .has-purple-color:visited {
-  color: #5533ff;
+  color: #6f42c1;
 }
 
 .has-purple-background-color {
-  background-color: #5533ff;
-  border-color: #5533ff;
+  background-color: #6f42c1;
+  border-color: #6f42c1;
 }
 
 .has-pink-color,
@@ -937,12 +935,12 @@ mark,
 
 .has-primary-color,
 .has-primary-color:visited {
-  color: #5533ff;
+  color: #007bff;
 }
 
 .has-primary-background-color {
-  background-color: #5533ff;
-  border-color: #5533ff;
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 .has-secondary-color,
@@ -1138,11 +1136,3 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 
 /*# sourceMappingURL=custom-editor-style.css.map */
-=======
-
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJjdXN0b20tZWRpdG9yLXN0eWxlLmNzcyIsInNvdXJjZXNDb250ZW50IjpbXX0= */
->>>>>>> 4f29457 (Add fullscreen landing page)
-=======
-
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJjdXN0b20tZWRpdG9yLXN0eWxlLmNzcyIsInNvdXJjZXNDb250ZW50IjpbXX0= */
->>>>>>> dd53350e711d8e59021c3fee9212ff1011c78ee3
