@@ -1,0 +1,36 @@
+.accordion-list{
+    .et_pb_post {
+        .entry-title{
+            cursor: pointer;
+            :before {
+                content: '-';
+            }
+            &:hover{
+                color: #3976cc;
+            }
+
+            &.hiding {
+                :before {
+                    content: '+';
+                }
+            }
+        }
+
+        .post-content{
+            .post-content-inner{
+                p {
+                    font-size: 1.5rem;
+                    line-height: 3rem;
+                }
+            }
+        }
+
+        .more-text{
+            .more-link {
+                display: unset;
+                color: #d13239;
+                font-weight: bold;
+            }
+        }
+    }
+}
