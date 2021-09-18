@@ -9989,7 +9989,7 @@
 
       $('#home-carousel').on('slide.bs.carousel', function () {// console.log('Ha! gotchya bish!... from the carousel sliding');
       });
-    });
+    }); // Add auto pan for fullscreen images when larger than container
   })(jQuery);
 
   exports.Alert = Alert;

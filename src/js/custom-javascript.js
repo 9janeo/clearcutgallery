@@ -16,4 +16,8 @@
         });
     });
 
+    // Add auto pan for fullscreen images when larger than container
+    
+
+
 })(jQuery);
