@@ -1,4 +1,8 @@
-wp.blocks.registerBlockType('ccg/border-box', {
+const { registerBlockType } = wp.blocks;
+const { __ } = wp.i18n;
+const { InspectorControls } = wp.editor;
+
+registerBlockType('ccg/border-box', {
   title: 'My Cool Border Box',
   icon: 'smiley',
   category: 'common',
@@ -12,7 +16,6 @@ wp.blocks.registerBlockType('ccg/border-box', {
     }
     
     function updateColor(value) {
-      console.log(value)
       props.setAttributes({color: value.hex})
     }
 

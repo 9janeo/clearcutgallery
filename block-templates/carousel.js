@@ -1,6 +1,9 @@
-wp.blocks.registerBlockType('ccg/carousel', {
+const { registerBlockType } = wp.blocks;
+const { __ } = wp.i18n;
+
+registerBlockType('ccg/carousel', {
   title: 'Carousel',
-  icon: 'smiley',
+  icon: 'update',
   category: 'media',
   attributes: {
     content: {type: 'string'},

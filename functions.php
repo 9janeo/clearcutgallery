@@ -3,8 +3,6 @@
         exit; // Exit if accessed directly.
     }
 
-    include 'block-templates/gallery-blocks.php';
-    
     add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
     function theme_enqueue_styles() {
     
@@ -17,6 +15,20 @@
         //     wp_enqueue_script( 'comment-reply' );
         // }
     }
+
+    include 'block-templates/gallery-blocks.php';
+
+    // Loads the custom gallery-bloks.js script as a module
+    function add_type_attribute($tag, $handle, $src) {
+        // if not your script, do nothing and return original $tag
+        if ( 'my-super-unique-handle' !== $handle ) {
+            return $tag;
+        }
+        // change the script tag by adding type="module" and return it.
+        $tag = '<script type="module" src="' . esc_url( $src ) . '"></script>';
+        return $tag;
+    }
+    add_filter( 'script_loader_tag', 'add_type_attribute', 10, 3 );
 
     if(is_user_logged_in()){
         show_admin_bar( true );
