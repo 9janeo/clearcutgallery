@@ -1,5 +1,6 @@
 const { registerBlockType } = wp.blocks;
 const { __ } = wp.i18n;
+const { InspectorControls } = wp.blockEditor;
 
 registerBlockType('ccg/carousel', {
   title: 'Carousel',
@@ -9,7 +10,7 @@ registerBlockType('ccg/carousel', {
     content: {type: 'string'},
     color: {type: 'string'}
   },
-  edit: function(props) {
+  edit: (props) => {
     function updateContent(event) {
       props.setAttributes({content: event.target.value})
     }
@@ -19,25 +20,29 @@ registerBlockType('ccg/carousel', {
       props.setAttributes({color: value.hex})
     }
 
-    return wp.element.createElement(
-      "div",
-      null,
-      wp.element.createElement(
-        "h3",
-        {style: {
-          border: `5px solid ${props.attributes.color}`
-        }},
-        `Preview: ${props.attributes.content}`
-      ),
-      wp.element.createElement("input", {type: "text", value: props.attributes.content, onChange: updateContent }),
-      wp.element.createElement(wp.components.ColorPicker, {color: props.attributes.color, onChangeComplete: updateColor })
-    );
+    return [
+      <InspectorControls>Hello From Inspector</InspectorControls>,
+      <div className={props.className}>
+        <ul className="list-unstyled">
+          <li>First one</li>
+          <li>
+            <label>
+            Content:
+              <input type="text" value={props.attributes.content} onChangeComplete={updateContent} />
+            </label>
+          </li>
+          <li>
+            <label>
+              Color: <input type="text" value={props.attributes.color} onChangeComplete={updateColor} />
+            </label>
+          </li>
+          <li>Another one</li>
+        </ul>
+      </div>
+    ]
   },
   save: function(props){
-    return wp.element.createElement("h3", {
-      style: {
-        border: `5px solid ${props.attributes.color}`
-      }
-    }, props.attributes.content);
+    return <h3 className={props.className} style={`border: 5px solid ${props.attributes.color}`}> {props.attributes.content}</h3>;
+    // <p>Hello World</p>
   }
-})
+});
