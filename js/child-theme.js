@@ -9981,6 +9981,7 @@
   // Add your custom JS here.
   (function ($) {
     // Add your custom JS here.
+    console.log("why can I log from here?...");
     $(function () {
       $('#home-carousel').carousel({
         interval: 4000,
