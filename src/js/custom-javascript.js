@@ -1,5 +1,5 @@
 // Add your custom JS here.
-import '../../block-templates/gallery-blocks'
+// import '../../block-templates/gallery-blocks'
 
 (function($) {
     // Add your custom JS here.

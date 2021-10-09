@@ -15,6 +15,43 @@
                     height: auto;
                 }
             }
+
+            ul#main-menu {
+                li.menu-item {
+                    a.nav-link {
+                        font-size: 11px;
+                        color: #b3b3b3;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        &:before {
+                            content: " ";
+                            border-top: 1px solid #fff;
+                            position: absolute;
+                            top: 30%;
+                            height: 1px;
+                            width: 0px;
+                            transition: width 0.3s;
+                            -moz-transition: width 0.3s;
+                            -webkit-transition: width 0.3s;
+                            bottom: 12px;
+                        }
+                    }
+                    &:hover, &:active{
+                        a.nav-link{
+                            color: #555;
+
+                            &:before {
+                                width: 25px;
+                                border-color: #555;
+                            }
+                        }
+                        // border-top: 1px solid #c4c4c4;
+                        // border-width: thin;
+                        // border-width: 50% 0 0 0;
+                    }
+                }
+            }
         }
     }
 }

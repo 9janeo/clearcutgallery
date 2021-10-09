@@ -32,7 +32,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -55,7 +55,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -6939,7 +6939,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7041,7 +7041,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -14731,12 +14731,97 @@ h1.entry-title {
   max-width: 100px;
   height: auto;
 }
+#wrapper-navbar #main-nav .container ul#main-menu li.menu-item a.nav-link {
+  font-size: 11px;
+  color: #b3b3b3;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#wrapper-navbar #main-nav .container ul#main-menu li.menu-item a.nav-link:before {
+  content: " ";
+  border-top: 1px solid #fff;
+  position: absolute;
+  top: 30%;
+  height: 1px;
+  width: 0px;
+  transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  -webkit-transition: width 0.3s;
+  bottom: 12px;
+}
+#wrapper-navbar #main-nav .container ul#main-menu li.menu-item:hover a.nav-link, #wrapper-navbar #main-nav .container ul#main-menu li.menu-item:active a.nav-link {
+  color: #555;
+}
+#wrapper-navbar #main-nav .container ul#main-menu li.menu-item:hover a.nav-link:before, #wrapper-navbar #main-nav .container ul#main-menu li.menu-item:active a.nav-link:before {
+  width: 25px;
+  border-color: #555;
+}
 
 #main-menu li a {
   color: #333;
 }
 #main-menu li a:hover {
   color: #FFF;
+}
+
+body {
+  font: 300 15px/1.625 "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body.page-template-default, body.page-template {
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: overlay;
+}
+body.page-template-default .entry-content, body.page-template .entry-content {
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+}
+body.page-template-default .entry-content p, body.page-template .entry-content p {
+  font: 14px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  margin-bottom: 20px;
+}
+body #right-sidebar .widget_block a {
+  color: #83a332;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 14px;
+  font-size: 14px;
+}
+body #right-sidebar .widget_block .wp-block-group__inner-container .wp-block-latest-posts.wp-block-latest-posts__list {
+  list-style: none;
+}
+body #right-sidebar .widget_block .wp-block-group__inner-container .wp-block-latest-posts.wp-block-latest-posts__list li {
+  padding-left: 35px;
+  padding-bottom: 35px;
+}
+body #right-sidebar .widget_block .wp-block-group__inner-container .wp-block-latest-posts.wp-block-latest-posts__list li a {
+  color: #83a332;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 14px;
+  font-size: 14px;
+}
+body #right-sidebar .widget_block .wp-block-group__inner-container .wp-block-latest-posts.wp-block-latest-posts__list li:before {
+  content: "\f00c";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -35px;
+  width: 35px;
+  height: 35px;
+  color: #000;
+  float: left;
 }
 
 .has-blue-color,

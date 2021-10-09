@@ -9979,6 +9979,7 @@
   })();
 
   // Add your custom JS here.
+  // import '../../block-templates/gallery-blocks'
   (function ($) {
     // Add your custom JS here.
     console.log("why can I log from here?...");
