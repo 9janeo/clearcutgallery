@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 
 <!-- ******************* The Full Screen Hero Widget Area ******************* -->
 
-<div id="home-carousel" class="carousel carousel-fade slide" data-ride="carousel">
+<div id="home-carousel" class="carousel carousel-fade slide" data-ride="carousel" data-pause="false">
 
 	<div class="carousel-inner" role="listbox">
 

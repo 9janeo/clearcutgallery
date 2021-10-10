@@ -3,8 +3,6 @@
         exit; // Exit if accessed directly.
     }
 
-    include 'block-templates/gallery-blocks.php';
-    
     add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
     function theme_enqueue_styles() {
     
