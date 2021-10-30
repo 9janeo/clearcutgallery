@@ -14828,11 +14828,12 @@ body.page-template-default .entry-content p, body.page-template .entry-content p
 #right-sidebar .widget_block .wp-block-latest-posts.wp-block-latest-posts__list li:before {
   content: "\f00c";
   font-family: FontAwesome;
-  display: inline-block;
   margin-left: -35px;
   width: 35px;
   height: 35px;
   color: #000;
+  display: block;
+  float: left;
 }
 
 .has-blue-color,
