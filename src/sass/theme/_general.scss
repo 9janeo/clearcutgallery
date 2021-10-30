@@ -26,3 +26,34 @@ h1.entry-title {
     line-height: 34px;
     font-size: 42px;
 }
+
+
+body{
+    font: 300 15px/1.625 "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  
+    &.page-template-default, &.page-template{
+      background-color: rgba(255,255,255,0.8);
+      background-blend-mode: overlay;
+  
+      .entry-content {
+        // font:  300 15px/1.625 "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+        color: rgba(0, 0, 0, 0.7);
+        font-weight: 400;
+        p{
+          font: 14px "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+          padding: 0;
+          border: 0;
+          outline: 0;
+          font-weight: inherit;
+          font-style: inherit;
+          font-size: 100%;
+          font-family: inherit;
+          vertical-align: baseline;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  
+}

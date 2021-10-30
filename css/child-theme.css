@@ -14679,6 +14679,17 @@ figure.woocommerce-product-gallery__wrapper {
   height: 100%;
   min-width: 100%;
 }
+#wrapper-hero .fullscreen .carousel .carousel-inner div.fullscreen-slide img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top left;
+  object-position: top left;
+  min-height: 100vh;
+  min-width: 100%;
+  position: relative;
+  -webkit-animation: panltr 7s alternate infinite 2s;
+  animation: panltr 7s alternate infinite 2s;
+}
 #wrapper-hero .fullscreen .carousel .carousel-inner div.fullscreen-slide.carousel-item {
   min-width: 100%;
 }
@@ -14716,6 +14727,32 @@ h1.entry-title {
   letter-spacing: 6px;
   line-height: 34px;
   font-size: 42px;
+}
+
+body {
+  font: 300 15px/1.625 "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body.page-template-default, body.page-template {
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: overlay;
+}
+body.page-template-default .entry-content, body.page-template .entry-content {
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+}
+body.page-template-default .entry-content p, body.page-template .entry-content p {
+  font: 14px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  margin-bottom: 20px;
 }
 
 #wrapper-navbar #main-nav {
@@ -14765,32 +14802,7 @@ h1.entry-title {
   color: #FFF;
 }
 
-body {
-  font: 300 15px/1.625 "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-body.page-template-default, body.page-template {
-  background-color: rgba(255, 255, 255, 0.8);
-  background-blend-mode: overlay;
-}
-body.page-template-default .entry-content, body.page-template .entry-content {
-  letter-spacing: 0.5px;
-  line-height: 22px;
-  color: rgba(0, 0, 0, 0.7);
-  font-weight: 400;
-}
-body.page-template-default .entry-content p, body.page-template .entry-content p {
-  font: 14px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
-  margin-bottom: 20px;
-}
-body #right-sidebar .widget_block a {
+#right-sidebar .widget_block a {
   color: #83a332;
   text-decoration: none;
   text-transform: uppercase;
@@ -14798,14 +14810,14 @@ body #right-sidebar .widget_block a {
   line-height: 14px;
   font-size: 14px;
 }
-body #right-sidebar .widget_block .wp-block-group__inner-container .wp-block-latest-posts.wp-block-latest-posts__list {
+#right-sidebar .widget_block .wp-block-latest-posts.wp-block-latest-posts__list {
   list-style: none;
 }
-body #right-sidebar .widget_block .wp-block-group__inner-container .wp-block-latest-posts.wp-block-latest-posts__list li {
+#right-sidebar .widget_block .wp-block-latest-posts.wp-block-latest-posts__list li {
   padding-left: 35px;
   padding-bottom: 35px;
 }
-body #right-sidebar .widget_block .wp-block-group__inner-container .wp-block-latest-posts.wp-block-latest-posts__list li a {
+#right-sidebar .widget_block .wp-block-latest-posts.wp-block-latest-posts__list li a {
   color: #83a332;
   text-decoration: none;
   text-transform: uppercase;
@@ -14813,14 +14825,14 @@ body #right-sidebar .widget_block .wp-block-group__inner-container .wp-block-lat
   line-height: 14px;
   font-size: 14px;
 }
-body #right-sidebar .widget_block .wp-block-group__inner-container .wp-block-latest-posts.wp-block-latest-posts__list li:before {
+#right-sidebar .widget_block .wp-block-latest-posts.wp-block-latest-posts__list li:before {
   content: "\f00c";
   font-family: FontAwesome;
-  display: inline-block;
   margin-left: -35px;
   width: 35px;
   height: 35px;
   color: #000;
+  display: block;
   float: left;
 }
 
